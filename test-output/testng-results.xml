@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87079" started-at="2020-01-31T14:15:34Z" finished-at="2020-01-31T14:17:01Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="87079" started-at="2020-01-31T14:15:34Z" finished-at="2020-01-31T14:17:01Z">
+      <class name="test.TC">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.TC@16ce702d]" name="openBrowser" is-config="true" duration-ms="22764" started-at="2020-01-31T19:45:11Z" finished-at="2020-01-31T19:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC001()[pri:5, instance:test.TC@16ce702d]" name="TC001" duration-ms="76532" started-at="2020-01-31T19:45:34Z" description="1D1V-Quote" finished-at="2020-01-31T19:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TC@16ce702d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-31T19:45:34Z" finished-at="2020-01-31T19:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:test.TC@16ce702d]" name="goToHomePage" is-config="true" duration-ms="10001" started-at="2020-01-31T19:46:51Z" finished-at="2020-01-31T19:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.TC@16ce702d]" name="closeBrowser" is-config="true" duration-ms="5267" started-at="2020-01-31T19:47:01Z" finished-at="2020-01-31T19:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
