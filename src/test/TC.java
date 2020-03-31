@@ -352,7 +352,7 @@ public class TC{
 		ConfirmVehicle.confirmVehicle_Extra();
 		PaymentPlan.paymentPlan();
 		Billing.billing();
-//comment
+//comm
 	}//closing TC006 method
 
 //	---------------------------------------------------------------------------------------
