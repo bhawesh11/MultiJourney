@@ -352,7 +352,7 @@ public class TC{
 		ConfirmVehicle.confirmVehicle_Extra();
 		PaymentPlan.paymentPlan();
 		Billing.billing();
-// checkout test
+// Yogesh and Anmol
 	}//closing TC006 method
 
 //	---------------------------------------------------------------------------------------
