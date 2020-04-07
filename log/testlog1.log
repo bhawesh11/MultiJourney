@@ -3845,3 +3845,207 @@ Session ID: fdb6b7a9bfc02b6e8ccb996954b76030
 2020-03-30 16:37:40,579 [main] INFO Shared Test Case_Web - Quote Page: Success!
 2020-03-30 16:37:56,424 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
 2020-03-30 16:38:12,068 [main] INFO Test Suite - Browser is closed.
+2020-04-01 18:29:11,710 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-01 18:37:36,784 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-01 18:37:56,743 [main] INFO Configuration - Loading Test Data.
+2020-04-01 18:38:02,522 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-01 18:38:06,110 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-01 18:38:18,762 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-01 18:38:35,813 [main] INFO Shared Test Case - Address page: Success!
+2020-04-01 18:38:56,754 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-01 18:39:17,116 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-01 18:39:36,466 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-01 18:39:52,540 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-01 18:39:55,841 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-01 18:40:03,874 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-01 18:40:17,105 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-01 18:40:26,702 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-01 18:40:36,324 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-01 18:40:53,152 [main] INFO Shared Test Case_Web - ConfirmVehicle page: Success!
+2020-04-01 18:41:14,655 [main] INFO Shared Test Case_Web - PaymentPlan page: Success!
+2020-04-01 18:41:26,462 [main] INFO Shared Test Case_Web - Payment Plan page: Success!
+2020-04-01 18:41:41,644 [main] INFO Test Suite - Browser is closed.
+2020-04-05 02:25:40,518 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-05 02:26:02,796 [main] INFO Configuration - Loading Test Data.
+2020-04-05 02:26:08,913 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-05 02:26:12,475 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-05 02:26:21,111 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-05 02:26:30,626 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-05 02:26:45,812 [main] INFO Shared Test Case - Address page: Success!
+2020-04-05 02:27:14,959 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-05 02:27:31,391 [main] INFO Configuration - Loading Test Data.
+2020-04-05 02:27:37,813 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-05 02:27:41,251 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-05 02:27:49,787 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-05 02:27:59,390 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-05 02:28:14,775 [main] INFO Shared Test Case - Address page: Success!
+2020-04-05 02:28:35,222 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-05 02:28:55,968 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-05 02:29:15,533 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-05 02:29:31,826 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-05 02:29:35,095 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-05 02:29:43,133 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-05 02:29:56,092 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-05 02:30:23,727 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-05 02:30:47,379 [main] INFO Shared Test Case_Web - Additional Driver 1of2 page: Success!
+2020-04-05 02:31:00,365 [main] INFO Shared Test Case_Web - Additional Driver 2of2 page: Success!
+2020-04-05 02:34:47,916 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-05 02:35:07,582 [main] INFO Configuration - Loading Test Data.
+2020-04-05 02:35:14,392 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-05 02:35:18,951 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-05 02:35:27,583 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-05 02:35:37,150 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-05 02:35:52,600 [main] INFO Shared Test Case - Address page: Success!
+2020-04-05 02:36:12,923 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-05 02:36:33,675 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-05 02:36:53,325 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-05 02:37:09,589 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-05 02:37:12,884 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-05 02:37:20,979 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-05 02:37:33,946 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-05 02:37:39,542 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-05 02:38:03,193 [main] INFO Shared Test Case_Web - Additional Driver 1of2 page: Success!
+2020-04-05 02:38:16,334 [main] INFO Shared Test Case_Web - Additional Driver 2of2 page: Success!
+2020-04-05 02:41:49,398 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-05 02:42:06,097 [main] INFO Configuration - Loading Test Data.
+2020-04-05 02:42:12,813 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-05 02:42:17,437 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-05 02:42:25,976 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-05 02:42:35,575 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-05 02:42:51,234 [main] INFO Shared Test Case - Address page: Success!
+2020-04-05 02:43:11,950 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-05 02:43:32,836 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-05 02:43:52,369 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-05 02:44:08,681 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-05 02:44:11,981 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-05 02:44:19,941 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-05 02:44:32,828 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-05 02:44:39,845 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-05 02:45:03,406 [main] INFO Shared Test Case_Web - Additional Driver 1of2 page: Success!
+2020-04-05 02:45:16,463 [main] INFO Shared Test Case_Web - Additional Driver 2of2 page: Success!
+2020-04-05 02:46:02,351 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-05 02:46:15,312 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-05 02:46:19,723 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-05 02:46:29,439 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-05 02:46:46,091 [main] INFO Shared Test Case_Web - ConfirmVehicle page: Success!
+2020-04-05 02:47:07,714 [main] INFO Shared Test Case_Web - PaymentPlan page: Success!
+2020-04-05 02:47:17,944 [main] INFO Shared Test Case_Web - Payment Plan page: Success!
+2020-04-05 02:47:29,618 [main] INFO Test Suite - Browser is closed.
+2020-04-06 00:06:47,074 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 00:07:15,590 [main] INFO Configuration - Loading Test Data.
+2020-04-06 00:07:19,324 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 00:07:22,732 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 00:07:31,025 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-06 00:07:40,017 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 00:07:54,003 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 00:23:03,978 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 00:23:21,853 [main] INFO Configuration - Loading Test Data.
+2020-04-06 00:23:25,465 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 00:23:28,704 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 00:23:37,010 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-06 00:23:45,920 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 00:24:00,006 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 00:24:19,774 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 00:24:39,119 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 00:24:57,994 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 00:25:13,722 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-06 00:25:16,870 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-06 00:25:24,379 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-06 00:25:36,575 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-06 00:25:48,154 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-06 00:25:55,263 [main] INFO Shared Test Case_Web - RetrieveQuote Page: Success!
+2020-04-06 00:26:10,430 [main] INFO Test Suite - Browser is closed.
+2020-04-06 00:44:19,184 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 00:44:41,120 [main] INFO Configuration - Loading Test Data.
+2020-04-06 00:44:45,130 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 00:44:48,416 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 00:44:59,361 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 00:45:13,359 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 00:45:32,739 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 00:45:52,074 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 00:46:10,908 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 00:46:26,608 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-06 00:46:29,757 [main] INFO Shared Test Case_Web - DriverList page: Success!
+2020-04-06 00:46:37,269 [main] INFO Shared Test Case_Web - Insurance History page: Success!
+2020-04-06 00:46:49,461 [main] INFO Shared Test Case_Web - Policy Start page: Success!
+2020-04-06 00:46:58,152 [main] INFO Shared Test Case_Web - Quote Page: Success!
+2020-04-06 00:48:40,655 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 00:49:04,347 [main] INFO Configuration - Loading Test Data.
+2020-04-06 00:49:07,677 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 00:49:33,828 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 00:49:59,690 [main] INFO Configuration - Loading Test Data.
+2020-04-06 00:50:03,398 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:23:47,758 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:24:21,909 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:24:42,535 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:24:46,381 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:24:49,594 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:25:00,486 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:25:14,444 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:25:33,652 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:25:53,019 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:26:11,817 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:26:54,544 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:27:14,724 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:27:18,453 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:27:21,729 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:27:32,710 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:27:46,774 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:28:05,486 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:28:24,802 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:28:43,641 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:29:42,364 [main] INFO Test Suite - Browser is closed.
+2020-04-06 01:30:15,374 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:30:37,472 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:30:41,515 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:30:45,447 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:30:56,397 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:31:10,626 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:31:29,499 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:31:48,816 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:32:07,645 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:37:31,932 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:37:53,472 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:37:57,530 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:38:01,487 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:38:12,471 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:38:44,903 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:39:05,513 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:39:10,468 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:39:14,348 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:39:22,660 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-06 01:39:31,584 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:39:47,613 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:40:10,870 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:40:33,189 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:40:52,019 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:42:15,772 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:42:39,818 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:42:46,101 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:42:50,739 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:43:02,422 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:43:19,636 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:43:44,267 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:44:07,344 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:44:26,586 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:49:46,222 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:50:09,655 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:50:15,383 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:50:18,886 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:50:30,414 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:50:45,899 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:51:06,793 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:51:27,113 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:51:46,532 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:52:04,030 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!
+2020-04-06 01:56:18,900 [main] WARN Test Suite - Disabled TestCases: []
+2020-04-06 01:56:42,505 [main] INFO Configuration - Loading Test Data.
+2020-04-06 01:56:48,702 [main] INFO Configuration - Test Data loaded successfully.
+2020-04-06 01:56:53,323 [main] INFO Shared Test Case - Beginning to Quote.
+2020-04-06 01:57:01,927 [main] INFO Shared Test Case - Family page: Just Me today selected. Success!
+2020-04-06 01:57:11,247 [main] INFO Shared Test Case_Web - Policy Holder page: Success!
+2020-04-06 01:57:26,519 [main] INFO Shared Test Case - Address page: Success!
+2020-04-06 01:57:47,231 [main] INFO Shared Test Case_Web - Vehicle Details 1of2 page: Success!
+2020-04-06 01:58:07,633 [main] INFO Shared Test Case_Web - Vehicle Details 2of2 page: Success!
+2020-04-06 01:58:27,003 [main] INFO Shared Test Case_Web - Policy holder Details 1of2 page: Success!
+2020-04-06 01:58:44,507 [main] INFO Shared Test Case_Web - Policy Holder Details 2of2 page: Success!

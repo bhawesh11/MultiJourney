@@ -11,8 +11,9 @@ public class PostalCode {
 	@FindBy(how=How.ID,using="btnPostalCode")
 	public WebElement btn_LetsGetStarted;
 	
-	@FindBy(how=How.ID,using="")
-	public WebElement btn_RetrieveSavedQuote;
+
+
+//[@id='step-postal-code']/div/div/label[@analytics-event='clicked retrieve quote')]
 
 
 }

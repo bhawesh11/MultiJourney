@@ -24,9 +24,11 @@ public class SharedTestCases_DriverList {
         log.info("DriverList page: Success!");
     }
 
-    public void driverList_MoveForward() {
+    public void driverList_RemoveDriver() {
         page = DriverList.class;
         DriverList driverList = (DriverList) PageFactory.initElements(BrowserFactory.driver, page);
+        WebFunctions.click(driverList.btn_RemoveDriver,TestData.testData.get("Second_First Name"));
+        WebFunctions.click(driverList.btn_RemoveDriverPopup);
         WebFunctions.click(driverList.btn_DoneWithDrivers);
     }
 

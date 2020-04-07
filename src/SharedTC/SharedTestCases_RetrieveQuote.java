@@ -17,6 +17,7 @@ public class SharedTestCases_RetrieveQuote {
     {
         page = RetrieveQuote.class;
         RetrieveQuote retrieveQuote = (RetrieveQuote) PageFactory.initElements(BrowserFactory.driver, page);
+       // WebFunctions.click(retrieveQuote.btn_RetrieveSavedQuote);
         WebFunctions.type(retrieveQuote.text_Email, TestData.testData.get("Email"));
         WebFunctions.type(retrieveQuote.text_DOB, TestData.testData.get("DOB"));
         WebFunctions.type(retrieveQuote.text_LastName, TestData.testData.get("Last Name"));

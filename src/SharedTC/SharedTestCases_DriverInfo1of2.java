@@ -18,7 +18,6 @@ public class SharedTestCases_DriverInfo1of2 {
 
         page = DriverInfo1of2.class;
         DriverInfo1of2 driverInfo1of2 = (DriverInfo1of2) PageFactory.initElements(BrowserFactory.driver, page);
-        System.out.println(TestData.testData.get("Second_First Name"));
         WebFunctions.type(driverInfo1of2.textBox_FirstName, TestData.testData.get("Second_First Name"));
         WebFunctions.type(driverInfo1of2.textBox_LastName, TestData.testData.get("Second_Last Name"));
         WebFunctions.type(driverInfo1of2.textBox_DOB, TestData.testData.get("Second_DOB"));

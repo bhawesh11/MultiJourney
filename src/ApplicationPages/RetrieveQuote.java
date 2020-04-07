@@ -6,6 +6,8 @@ import org.openqa.selenium.support.How;
 
 public class RetrieveQuote {
 
+    @FindBy(how=How.ID,using="//a[@class='postal-code-hero__saved-quote-link ng-scope']")
+    public WebElement btn_RetrieveSavedQuote;
 
     @FindBy(how= How.XPATH,using="//*[@id=\"email\"]")
     public WebElement text_Email;

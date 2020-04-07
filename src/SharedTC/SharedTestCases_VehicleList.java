@@ -14,11 +14,13 @@ public class SharedTestCases_VehicleList {
 
 
     //	VEHICLE LIST
-    public void vehicleList() {
+    public void vehicleList()
+    {
         page = VehicleList.class;
         VehicleList vehicleList = (VehicleList) PageFactory.initElements(BrowserFactory.driver, page);
         WebFunctions.click(vehicleList.btn_Next);
 
-             // -------------------------------------------------------------------------------------------
     }
+
+
 }
