@@ -2,6 +2,7 @@ package SharedTC;
 
 import GenericFunctions.BrowserFactory;
 import GenericFunctions.TestData;
+import GenericFunctions.Testing;
 import GenericFunctions.WebFunctions;
 import org.apache.log4j.Logger;
 import ApplicationPages.RetrieveQuote;
@@ -13,14 +14,15 @@ public class SharedTestCases_RetrieveQuote {
 
     Logger log = Logger.getLogger("Shared Test Case_Web");
 
-    public void RetrieveQuote()
+    public void RetrieveQuote(Testing test)
     {
         page = RetrieveQuote.class;
-        RetrieveQuote retrieveQuote = (RetrieveQuote) PageFactory.initElements(BrowserFactory.driver, page);
-        WebFunctions.type(retrieveQuote.text_Email, TestData.testData.get("Email"));
-        WebFunctions.type(retrieveQuote.text_DOB, TestData.testData.get("DOB"));
-        WebFunctions.type(retrieveQuote.text_LastName, TestData.testData.get("Last Name"));
-        WebFunctions.click(retrieveQuote.btn_RetrieveQuote);
+        RetrieveQuote retrieveQuote = (RetrieveQuote) PageFactory.initElements(test.driver, page);
+       // test.webFunctions().click(retrieveQuote.btn_RetrieveSavedQuote);
+        test.webFunctions().type(test,retrieveQuote.text_Email, test.getTestData("Policyholder.Email"));
+        test.webFunctions().type(test,retrieveQuote.text_DOB, test.getTestData("Policyholder.DOB"));
+        test.webFunctions().type(test,retrieveQuote.text_LastName, test.getTestData("Policyholder.LastName"));
+        test.webFunctions().click(test,retrieveQuote.btn_RetrieveQuote);
         log.info("RetrieveQuote Page: Success!");
     }
 }

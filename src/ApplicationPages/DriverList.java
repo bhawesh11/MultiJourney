@@ -13,4 +13,15 @@ public class DriverList {
 	@FindBy(how=How.XPATH,using="//*[@id=\"lnkBtnAddNewVehicle\"]")
 	public WebElement btn_AddAnotherDriver;
 
+	public String btn_RemoveDriver = "//div[contains(text(),'{0}')]/ancestor::div[3]/div/div[2]/button";
+
+	@FindBy(how=How.XPATH,using="//*[@id=\"btnCancel\"]")
+	public WebElement btn_RemoveDriverPopup;
+
+
+
+
+
+
+
 }
