@@ -164,14 +164,14 @@ public class TC {
 
 */
 
-/*
+
     //	---------------------------------------------------------------------------------------
 
     //	TC003
-    @Test(enabled=true, priority=5, description="1V1D-Quote")
+    @Test(enabled=false, priority=5, description="1V1D-Quote")
     @Parameters("ENV")
-    public void TC001(String ENV) throws InterruptedException, IOException{
-        Testing tc001 = new Testing(ENV,"1D1V");
+    public void TC003(String ENV) throws InterruptedException, IOException{
+        Testing tc001 = new Testing(ENV,"2V1D");
         try{
         //use sheet Test2V1D.xlsx for this one
         PostalCode.postalCode(tc001);
@@ -205,9 +205,9 @@ public class TC {
     //	TC004
       @Test(enabled=true, priority=5, description="1V1D-Quote")
     @Parameters("ENV")
-    public void TC001(String ENV) throws InterruptedException, IOException{
+    public void TC004(String ENV) throws InterruptedException, IOException{
         //script="2D1V";
-        Testing tc001 = new Testing(ENV,"1D1V");
+        Testing tc001 = new Testing(ENV,"1V2D");
         try{
 
         PostalCode.postalCode(tc001);
@@ -238,9 +238,9 @@ public class TC {
     }//closing TC004 method
 
 //	---------------------------------------------------------------------------------------
-*/
+
     //	TC005
-@Test(enabled=true, priority=5, description="2V2D-Quote")
+@Test(enabled=false, priority=5, description="2V2D-Quote")
 @Parameters("ENV")
 public void TC005(String ENV) throws InterruptedException, IOException{
 

@@ -39,7 +39,7 @@ public class SharedTestCases_DriverInfo2of2 {
 
         if(NoOfDriver >= 2 && NoOfVehicle >= 2 )
         {
-            test.webFunctions().click(test,driverInfo2of2.btn_vehicleAssignment,test.getTestData("AdditionalVehicle-details."+additionalDriver+"Model"));
+            test.webFunctions().click(test,driverInfo2of2.btn_vehicleAssignment,test.getTestData("Vehicle.V"+additionalDriver+".Model"));//("AdditionalVehicle-details."+additionalDriver+"Model"));
         }
         test.webFunctions().click(test,driverInfo2of2.btn_IncidentHistory,test.getTestData("AdditionalDriver."+additionalDriver+"Incident"));
         test.webFunctions().click(test,driverInfo2of2.btn_Next);
