@@ -12,7 +12,7 @@ public class Excel {
 	public static String readExcel(String sheetName, int rownum, int colnum) throws IOException {
 		
 		//Specifying path
-		File src = new File("C:\\IntelliJ\\WorkSpace\\MultiJourney\\Test_SuspendedLicense.xlsx");
+		File src = new File("C:\\IntelliJ\\WorkSpace\\MultiJourney\\Test8V8D.xlsx");
 		//Making tunnel for this file in byte format
 		FileInputStream fis = new FileInputStream(src);
 		//Loading excel sheet
@@ -40,7 +40,7 @@ public class Excel {
 
 		try
 		{
-			File testdata = new File("C:\\IntelliJ\\WorkSpace\\MultiJourney\\Test_SuspendedLicense.xlsx");
+			File testdata = new File("C:\\IntelliJ\\WorkSpace\\MultiJourney\\Test8V8D.xlsx");
 			FileInputStream fis = new FileInputStream(testdata);
 			XSSFWorkbook wb = new XSSFWorkbook(fis);
 			XSSFSheet sh = wb.getSheet(sheetName);

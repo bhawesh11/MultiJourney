@@ -8,8 +8,10 @@
 	</listeners>
 	
   <test name="test">
+      <parameter name="ENV" value="QA6"/>
     <classes>
       <class name="test.TC"/>
     </classes>
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->

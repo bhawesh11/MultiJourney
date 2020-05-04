@@ -3,6 +3,7 @@ package SharedTC;
 import ApplicationPages.DriverInfo2of2;
 import GenericFunctions.BrowserFactory;
 import GenericFunctions.TestData;
+import GenericFunctions.Testing;
 import GenericFunctions.WebFunctions;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
@@ -14,34 +15,34 @@ public class SharedTestCases_DriverInfo2of2 {
     Logger log = Logger.getLogger("Shared Test Case_Web");
 
     //  Additional Driver page
-    public void driverInfo2of2() {
+    public void driverInfo2of2(Testing test) {
         page = DriverInfo2of2.class;
-        DriverInfo2of2 driverInfo2of2 = (DriverInfo2of2) PageFactory.initElements(BrowserFactory.driver, page);
-        WebFunctions.click(driverInfo2of2.btn_ValidLicense, TestData.testData.get("Second_Valid License"));
-        WebFunctions.click(driverInfo2of2.btn_AgeFirstLicensed,TestData.testData.get("Second_Age first licensed"));
-        //WebFunctions.click(driverInfo2of2.btn_vehicleAssignment,TestData.testData.get(""));
-        WebFunctions.click(driverInfo2of2.btn_IncidentHistory,TestData.testData.get("Second_Incident"));
-        WebFunctions.click(driverInfo2of2.btn_Next);
+        DriverInfo2of2 driverInfo2of2 = (DriverInfo2of2) PageFactory.initElements(test.driver, page);
+        test.webFunctions().click(test,driverInfo2of2.btn_ValidLicense, test.getTestData("Second_Valid License"));
+        test.webFunctions().click(test,driverInfo2of2.btn_AgeFirstLicensed,test.getTestData("Second_Age first licensed"));
+        //test.webFunctions().click(driverInfo2of2.btn_vehicleAssignment,test.getTestData(""));
+        test.webFunctions().click(test,driverInfo2of2.btn_IncidentHistory,test.getTestData("Second_Incident"));
+        test.webFunctions().click(test,driverInfo2of2.btn_Next);
         log.info("Additional Driver 2of2 page: Success!");
     }
 
     // -------------------------------------------------------------------------------------------
 
 
-    public static void driverInfo_2of2(int additionalDriver) {
+    public static void driverInfo_2of2(Testing test,int additionalDriver) {
         page = DriverInfo2of2.class;
-        DriverInfo2of2 driverInfo2of2 = (DriverInfo2of2) PageFactory.initElements(BrowserFactory.driver, page);
-        int NoOfDriver = Integer.parseInt(TestData.testData.get("Driver"));
-        int NoOfVehicle = Integer.parseInt(TestData.testData.get("Vehicle"));
-        WebFunctions.click(driverInfo2of2.btn_ValidLicense, TestData.testData.get(additionalDriver+"Valid License"));
-        WebFunctions.click(driverInfo2of2.btn_AgeFirstLicensed,TestData.testData.get(additionalDriver+"Age first licensed"));
+        DriverInfo2of2 driverInfo2of2 = (DriverInfo2of2) PageFactory.initElements(test.driver, page);
+        int NoOfDriver = Integer.parseInt(test.getTestData("Scenario.Driver"));
+        int NoOfVehicle = Integer.parseInt(test.getTestData("Scenario.Vehicle"));
+        test.webFunctions().click(test,driverInfo2of2.btn_ValidLicense, test.getTestData("AdditionalDriver."+additionalDriver+"ValidLicense"));
+        test.webFunctions().click(test,driverInfo2of2.btn_AgeFirstLicensed,test.getTestData("AdditionalDriver."+additionalDriver+"Agefirstlicensed"));
 
         if(NoOfDriver >= 2 && NoOfVehicle >= 2 )
         {
-            WebFunctions.click(driverInfo2of2.btn_vehicleAssignment,TestData.testData.get(additionalDriver+"Model"));
+            test.webFunctions().click(test,driverInfo2of2.btn_vehicleAssignment,test.getTestData("AdditionalVehicle-details."+additionalDriver+"Model"));
         }
-        WebFunctions.click(driverInfo2of2.btn_IncidentHistory,TestData.testData.get(additionalDriver+"Incident"));
-        WebFunctions.click(driverInfo2of2.btn_Next);
+        test.webFunctions().click(test,driverInfo2of2.btn_IncidentHistory,test.getTestData("AdditionalDriver."+additionalDriver+"Incident"));
+        test.webFunctions().click(test,driverInfo2of2.btn_Next);
     }
 
 }

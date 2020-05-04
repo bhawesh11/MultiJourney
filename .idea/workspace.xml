@@ -2,39 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98a3359d-8a5f-40d6-b438-95281c504faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Incidents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Quotes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1V2D.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test1V2D.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1V2D_RemoveDriver.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test1V2D_RemoveDriver.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1V2D_Spouse.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test1V2D_Spouse.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2V1D.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test2V1D.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2V2D.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test2V2D.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test8V8D.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test8V8D.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAdda.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAdda1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAdda1V2D.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAdda2V1D.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAdda2V2D.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_SuspendedLicense.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Test_SuspendedLicense.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/log/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/testlog1.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/testlog1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/DriverList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/DriverList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/PolicyHolderDetails2of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/PolicyHolderDetails2of2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/PostalCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/PostalCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/RetrieveQuote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/RetrieveQuote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/DUMMY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/GetInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/GetInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/ApplicationPages/Quote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/BrowserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/BrowserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Database.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Excel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Excel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/GWfunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/WebFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/GenericFunctions/WebFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/Dummy_SharedTestCases_Drivers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SCRIPT1D1VTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/Selide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Billing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Billing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Children.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Children.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_ConfirmDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_ConfirmDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_ConfirmVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_ConfirmVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverAssignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverAssignment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverInfo1of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverInfo1of2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverInfo2of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverInfo2of2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_DriverList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Family.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Family.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_GetInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_GetInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_InsuranceHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_InsuranceHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PaymentPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PaymentPlan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolderDetails1of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolderDetails1of2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolderDetails2of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyHolderDetails2of2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyStatrDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PolicyStatrDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PostalCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_PostalCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Quote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Quote.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_RetrieveQuote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_RetrieveQuote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_RightPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_RightPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Spouse1of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Spouse1of2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Spouse2of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Spouse2of2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleDetails1of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleDetails1of2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleDetails2of2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleDetails2of2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_VehicleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/SharedTC/SharedTestCases_Web.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Quotes/test/TC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/test/TC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/DriverList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/DriverList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/PolicyHolderDetails2of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/PolicyHolderDetails2of2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/PostalCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/PostalCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/RetrieveQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/RetrieveQuote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Quotes/testNGListners/ITestAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quotes/testNGListners/ITestAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/DUMMY.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/GetInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationPages/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationPages/Quote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericFunctions/BrowserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericFunctions/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GenericFunctions/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericFunctions/Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/GWfunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericFunctions/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericFunctions/WebFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericFunctions/WebFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/Dummy_SharedTestCases_Drivers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SCRIPT1D1VTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/Selide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Billing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Billing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Children.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_ConfirmDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_ConfirmDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_ConfirmVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_ConfirmVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverAssignment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverInfo1of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverInfo1of2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverInfo2of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverInfo2of2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_GetInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_InsuranceHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_InsuranceHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PaymentPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PaymentPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolderDetails1of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolderDetails1of2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolderDetails2of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyHolderDetails2of2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyStatrDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyStatrDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PostalCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_PostalCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Quote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_RetrieveQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_RetrieveQuote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_RightPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Spouse1of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Spouse1of2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Spouse2of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Spouse2of2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleDetails1of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleDetails1of2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleDetails2of2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleDetails2of2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SharedTC/SharedTestCases_Web.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/TC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testNGListners/ITestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testNGListners/ITestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MultiJourney" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,9 +139,32 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.20.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.TC.TC008">
-    <configuration name="TC.TC008 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GenericFunctions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IntelliJ\WorkSpace\MultiJourney" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/IntelliJ/WorkSpace/MultiJourney/Smoke.xml">
+    <configuration name="C:/IntelliJ/WorkSpace/MultiJourney/Smoke.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Quotes" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Smoke.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Quotes" />
       <extension name="coverage">
         <pattern>
@@ -68,7 +174,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TC" />
-      <option name="METHOD_NAME" value="TC008" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC.TC001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Quotes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TC" />
+      <option name="METHOD_NAME" value="TC001" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -76,7 +199,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC.TC008 (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC.TC005" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Quotes" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +209,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TC" />
-      <option name="METHOD_NAME" value="TC008" />
+      <option name="METHOD_NAME" value="TC005" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,7 +217,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC.TC008 (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC.TC010" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Quotes" />
       <extension name="coverage">
         <pattern>
@@ -104,43 +227,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.TC" />
-      <option name="METHOD_NAME" value="TC008" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC.TC008 (5)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Quotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TC" />
-      <option name="METHOD_NAME" value="TC008" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC.TC008" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Quotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TC" />
-      <option name="METHOD_NAME" value="TC008" />
+      <option name="METHOD_NAME" value="TC010" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +237,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC.TC008" />
-        <item itemvalue="TestNG.TC.TC008 (1)" />
-        <item itemvalue="TestNG.TC.TC008 (5)" />
-        <item itemvalue="TestNG.TC.TC008 (4)" />
-        <item itemvalue="TestNG.TC.TC008 (3)" />
+        <item itemvalue="TestNG.C:/IntelliJ/WorkSpace/MultiJourney/Smoke.xml" />
+        <item itemvalue="TestNG.TC.TC005" />
+        <item itemvalue="TestNG.TC.TC001" />
+        <item itemvalue="TestNG.TC.TC010" />
       </list>
     </recent_temporary>
   </component>
@@ -171,56 +257,108 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1586118791348">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588270725807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1586118791348">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588270725807" />
+    <state x="447" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1588340471779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1586118791348">
+    <state x="447" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1588340471779" />
+    <state x="438" y="67" key="#xdebugger.evaluate" timestamp="1586693224130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1586118791348">
+    <state x="438" y="67" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1586693224130" />
+    <state x="497" y="119" key="FileChooserDialogImpl" timestamp="1588340488782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1586118791348">
+    <state x="497" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588340488782" />
+    <state width="1367" height="184" key="GridCell.Tab.0.bottom" timestamp="1588598105760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1586118791348">
+    <state width="1367" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588598105760" />
+    <state width="1367" height="184" key="GridCell.Tab.0.center" timestamp="1588598105760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1586118791348">
+    <state width="1367" height="184" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588598105760" />
+    <state width="1367" height="184" key="GridCell.Tab.0.left" timestamp="1588598105760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1586118791348">
+    <state width="1367" height="184" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588598105760" />
+    <state width="1367" height="184" key="GridCell.Tab.0.right" timestamp="1588598105760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586118791348" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586175556642">
+    <state width="1367" height="184" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588598105760" />
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom" timestamp="1588577183349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586175556642" />
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588577183349" />
+    <state width="1323" height="211" key="GridCell.Tab.1.center" timestamp="1588577183348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588577183348" />
+    <state width="1323" height="211" key="GridCell.Tab.1.left" timestamp="1588577183348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588577183348" />
+    <state width="1323" height="211" key="GridCell.Tab.1.right" timestamp="1588577183348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588577183348" />
+    <state x="197" y="0" key="SettingsEditor" timestamp="1588414452764">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="197" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588414452764" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588574306352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588574306352" />
+    <state x="511" y="0" width="737" height="728" key="find.popup" timestamp="1588268767925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="511" y="0" width="737" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588268767925" />
+    <state x="65" y="0" key="new project wizard" timestamp="1588258552895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588258552895" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588269917757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588269917757" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/SharedTC/SharedTestCases_DriverList.java</url>
-          <line>26</line>
-          <properties class="SharedTC.SharedTestCases_DriverList" method="driverList_RemoveDriver">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="14" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SharedTC/SharedTestCases_PolicyStatrDate.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SharedTC/SharedTestCases_VehicleDetails1of2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="ITestTransform.disabledTC" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

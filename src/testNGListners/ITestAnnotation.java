@@ -1,17 +1,11 @@
 package testNGListners;
 import java.io.CharArrayWriter;
 import java.io.PrintWriter;
-import java.util.Set;
 
 import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import test.TC;
-import GenericFunctions.Database;
-import GenericFunctions.Excel;
-import GenericFunctions.TestData;
 
 public class ITestAnnotation implements ITestListener{
 	
@@ -41,22 +35,22 @@ public class ITestAnnotation implements ITestListener{
 		String trace = cw.toString();
 		log.error(arg0.getName()+" is Failed ! \n EXCEPTION:  --->  " + trace);
 		
-		System.out.println(
+	/*	System.out.println(
 				arg0.getName()+	" | "+					//TestName
-				TestData.testData.get("Brand")+" | "+ 	//Brand
+				test.getTestData("Brand")+" | "+ 	//Brand
 				"FAILED"+ 					" | "+		//Result
 				TestData.testData.toString()+ " | "+	//Input
 				TC.output.toString()					//Output
-			);
+			);*/
 		
 		//Writing Result in Database
-		Database.saveOutputInDataBase(
+	/*	Database.saveOutputInDataBase(
 			arg0.getTestName(),					//TestName
-			TestData.testData.get("Brand"), 	//Brand
+			test.getTestData("Brand"), 	//Brand
 			"FAILED", 							//Result
 			TestData.testData.toString(), 		//Input
 			TC.output.toString()				//Output
-		);
+		);*/
 		
 	}
 	
@@ -66,21 +60,21 @@ public class ITestAnnotation implements ITestListener{
 	public void onTestSkipped(ITestResult arg0) {
 		log.warn(arg0.getName()+" is Skipped or Not Tested.");
 		
-		//Writing Result in Database
+		/*//Writing Result in Database
 		Database.saveOutputInDataBase(
 			arg0.getTestName(),					//TestName
-			TestData.testData.get("Brand"), 	//Brand
+			test.getTestData("Brand"), 	//Brand
 			"SKIPPED", 							//Result
 			TestData.testData.toString(), 		//Input
 			TC.output.toString()				//Output
-		);
+		);*/
 	}
 	
 //	------------------------------------------------------------------------------------------
 
 	@Override
 	public void onTestStart(ITestResult arg0) {
-		TestData.getTestData();
+
 		int priority = arg0.getMethod().getPriority();
 		String methodName = arg0.getMethod().getMethodName();
 		System.out.println("------------------------------------------------------------------------");
@@ -94,9 +88,9 @@ public class ITestAnnotation implements ITestListener{
 	public void onTestSuccess(ITestResult arg0) {
 		log.info(arg0.getName()+" is Passed !");
 		
-		System.out.println(
+		/*System.out.println(
 			arg0.getName()+	" | "+					//TestName
-			TestData.testData.get("Brand")+" | "+ 	//Brand
+			test.getTestData("Brand")+" | "+ 	//Brand
 			"SKIPPED"+ 					" | "+		//Result
 			TestData.testData.toString()+ " | "+		//Input
 			TC.output.toString()				//Output
@@ -105,10 +99,10 @@ public class ITestAnnotation implements ITestListener{
 		//Writing Result in Database
 		Database.saveOutputInDataBase(
 			arg0.getName(),						//TestName
-			TestData.testData.get("Brand"), 	//Brand
+			test.getTestData("Brand"), 	//Brand
 			"PASSED", 							//Result
 			TestData.testData.toString(), 		//Input
 			TC.output.toString()				//Output
-		);
+		);*/
 	}
 }

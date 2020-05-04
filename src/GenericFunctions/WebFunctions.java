@@ -11,22 +11,23 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import SharedTC.SharedTestCases;
+import java.io.IOException;
+import java.util.Date;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.io.FileHandler;
+
+import java.io.File;
 
 public class WebFunctions {
 
-	static Boolean done=false;
-	static int attempt = 0;
-	public static WebDriverWait wait = new WebDriverWait(BrowserFactory.driver, 40);
-	public static JavascriptExecutor jse = (JavascriptExecutor)BrowserFactory.driver;
-	public static WebElement element;
-	static Select dropdown;
+	//	======================================================================
 
-//	======================================================================
-
-//	TYPE
-	public static void type(WebElement element, String value){
-
+	//	TYPE
+	public void type(Testing test,WebElement element, String value){
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		done=false;
 		attempt=0;
 		while(!done && (attempt<3)){
@@ -35,120 +36,13 @@ public class WebFunctions {
 				wait.until(ExpectedConditions.elementToBeClickable(element));
 				element.clear();
 				element.sendKeys(value);
-				try{Thread.sleep(1000);}catch(Exception e){};
-				Utility.stop();
+				try{Thread.sleep(3000);}catch(Exception e){};
+				Utility.stop(test);
 				done=true;
 			}// Closing TRY
 
 			catch(StaleElementReferenceException e){
-				reInitPageElements();
-			}//Closing CATCH-1
-
-			catch(WebDriverException e){
-				System.out.println("WebDriver Exception");
-				try{Thread.sleep(1000);}catch(Exception e2){};
-			}//Closing CATCH-2
-		}//Closing WHILE
-	}//Closing METHOD
-
-//	======================================================================
-
-//	TYPE DYNAMIC
-public static void type(String webElement, String var1, String value) {
-
-	webElement=webElement.replace("{0}", var1);
-	try{Thread.sleep(5000);}catch(Exception e){};  // By D
-	element=BrowserFactory.driver.findElement(By.xpath(webElement));
-	type(element,value);
-
-}//Closing METHOD
-
-//	-------------------------------------------------------------------------------
-
-	//	TYPE DYNAMIC-2
-	public static void type(String webElement, String var1, String var2, String value) {
-
-		webElement=webElement.replace("{0}", var1);
-		webElement=webElement.replace("{1}", var2);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
-
-		type(element,value);
-
-	}//Closing METHOD
-
-
-
-	//	CLICK ONLY
-	public static void click(WebElement element) {
-		done=false;
-		attempt=0;
-		while(!done && (attempt<3)){
-			try{
-				attempt++;
-				wait.until(ExpectedConditions.visibilityOf(element));
-				element.click();
-				try{Thread.sleep(3000);}catch(Exception e){}; //D previous 2000
-				Utility.stop();
-				done=true;
-			}// Closing TRY
-
-			catch(StaleElementReferenceException e){
-				reInitPageElements();
-			}//Closing CATCH-1
-
-			catch(WebDriverException e){
-				System.out.println("WebDriver Exception");
-				try{Thread.sleep(3000);}catch(Exception e2){};
-			}//Closing CATCH-2
-		}//Closing WHILE
-	}//Closing METHOD
-
-//	------------------------------------------------------------------------------
-
-//	CLICK DYNAMIC
-	public static void click(String webElement, String value) {
-
-		webElement=webElement.replace("{0}", value);
-//		System.out.println(webElement);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
-
-		click(element);
-
-	}//Closing METHOD
-
-//	-------------------------------------------------------------------------------
-
-//	CLICK DYNAMIC-2
-	public static void click(String webElement, String value1, String value2) {
-
-		webElement=webElement.replace("{0}", value1);
-		webElement=webElement.replace("{1}", value2);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
-
-		click(element);
-
-	}//Closing METHOD
-
-//	======================================================================
-
-
-	//	CLICK AND BLUR
-	public static void clickAndBlur(WebElement element) {
-		done=false;
-		attempt=0;
-		while(!done && (attempt<3)){
-			try{
-				attempt++;
-				wait.until(ExpectedConditions.visibilityOf(element));
-				element.click();
-				BrowserFactory.driver.findElement(By.id("ext-element-1")).click();
-				try{Thread.sleep(1000);}catch(Exception e){};
-				Utility.stop();
-				done=true;
-			}// Closing TRY
-
-			catch(StaleElementReferenceException e){
-				reInitPageElements();
+				reInitPageElements(test);
 			}//Closing CATCH-1
 
 			catch(WebDriverException e){
@@ -160,8 +54,134 @@ public static void type(String webElement, String var1, String value) {
 
 //	======================================================================
 
-//	CLICK AND BLUR (JAVASCRIPT)
-	public static void clickJS(WebElement element) {
+	//	TYPE DYNAMIC
+	public void type(Testing test,String webElement, String var1, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+		webElement=webElement.replace("{0}", var1);
+		try{Thread.sleep(5000);}catch(Exception e){};  // By D
+		WebElement element=test.driver.findElement(By.xpath(webElement));
+		type(test,element,value);
+
+	}//Closing METHOD
+
+//	-------------------------------------------------------------------------------
+
+	//	TYPE DYNAMIC-2
+	public void type(Testing test,String webElement, String var1, String var2, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+		webElement=webElement.replace("{0}", var1);
+		webElement=webElement.replace("{1}", var2);
+		WebElement element=test.driver.findElement(By.xpath(webElement));
+
+		type(test,element,value);
+
+	}//Closing METHOD
+
+
+	//	------------------------------------------------------------------------------
+	//	CLICK ONLY WITH WEBELEMENT PARAMETER
+	public void click(Testing test,WebElement element) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+		done=false;
+		attempt=0;
+		while(!done && (attempt<3)){
+			try{
+				attempt++;
+				wait.until(ExpectedConditions.visibilityOf(element));
+				element.click();
+				try{Thread.sleep(4000);}catch(Exception e){}; //D previous 2000
+				Utility.stop(test);
+				done=true;
+			}// Closing TRY
+
+			catch(StaleElementReferenceException e){
+				reInitPageElements(test);
+			}//Closing CATCH-1
+
+			catch(WebDriverException e){
+				System.out.println("WebDriver Exception");
+				//Screenshot(test);
+				try{Thread.sleep(3000);}catch(Exception e2){};
+			}//Closing CATCH-2
+		}//Closing WHILE
+	}//Closing METHOD
+
+	//	------------------------------------------------------------------------------
+//	CLICK DYNAMIC
+	public void click(Testing test,String webElement, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+
+		webElement=webElement.replace("{0}", value);
+		WebElement element=test.driver.findElement(By.xpath(webElement));
+
+		click(test,element);
+
+	}//Closing METHOD
+
+//	-------------------------------------------------------------------------------
+
+	//	CLICK DYNAMIC-2
+	public void click(Testing test,String webElement, String value1, String value2) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+
+		webElement=webElement.replace("{0}", value1);
+		webElement=webElement.replace("{1}", value2);
+		WebElement element=test.driver.findElement(By.xpath(webElement));
+
+		click(test,element);
+
+	}//Closing METHOD
+
+//	======================================================================
+
+
+	//	CLICK AND BLUR
+	public void clickAndBlur(Testing test,WebElement element) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+		done=false;
+		attempt=0;
+		while(!done && (attempt<3)){
+			try{
+				attempt++;
+				wait.until(ExpectedConditions.visibilityOf(element));
+				element.click();
+				test.driver.findElement(By.id("ext-element-1")).click();
+				try{Thread.sleep(1000);}catch(Exception e){};
+				Utility.stop(test);
+				done=true;
+			}// Closing TRY
+
+			catch(StaleElementReferenceException e){
+				reInitPageElements(test);
+			}//Closing CATCH-1
+
+			catch(WebDriverException e){
+				System.out.println("WebDriver Exception");
+				try{Thread.sleep(2000);}catch(Exception e2){};
+			}//Closing CATCH-2
+		}//Closing WHILE
+	}//Closing METHOD
+
+//	======================================================================
+
+	//	CLICK AND BLUR (JAVASCRIPT)
+	public void clickJS(Testing test,WebElement element) {
+		 JavascriptExecutor jse = (JavascriptExecutor)test.driver;
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		done=false;
 		attempt=0;
 		while(!done && (attempt<3)){
@@ -170,12 +190,12 @@ public static void type(String webElement, String var1, String value) {
 				wait.until(ExpectedConditions.visibilityOf(element));
 				jse.executeScript("arguments[0].click();", element);
 				try{Thread.sleep(2000);}catch(Exception e){};  //D
-				Utility.stop();
+				Utility.stop(test);
 				done=true;
 			}// Closing TRY
 
 			catch(StaleElementReferenceException e){
-				reInitPageElements();
+				reInitPageElements(test);
 			}//Closing CATCH-1
 
 			catch(WebDriverException e){
@@ -186,23 +206,26 @@ public static void type(String webElement, String var1, String value) {
 	}//Closing METHOD
 //	======================================================================
 
-//	SELECT GUIDEWIRE'S DROPDOWN
-	public static void dropdown(WebElement element, String value) {
+	//	SELECT GUIDEWIRE'S DROPDOWN
+	public void dropdown(Testing test,WebElement element, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		done=false;
 		attempt=0;
 		while(!done && (attempt<3)){
 			try{
 				attempt++;
 				wait.until(ExpectedConditions.elementToBeClickable(element));
-				dropdown= new Select(element);
+				Select dropdown= new Select(element);
 				dropdown.selectByVisibleText(value);
-				try{Thread.sleep(1000);}catch(Exception e){};
-				Utility.stop();
+				try{Thread.sleep(3000);}catch(Exception e){};
+				Utility.stop(test);
 				done=true;
 			}// Closing TRY
 
 			catch(StaleElementReferenceException e){
-				reInitPageElements();
+				reInitPageElements(test);
 			}//Closing CATCH-1
 
 //			catch(WebDriverException e){
@@ -214,49 +237,61 @@ public static void type(String webElement, String var1, String value) {
 //	======================================================================
 
 	//	SELECT DROPDOWN - DYNAMIC
-	public static void dropdown(String webElement, String var1, String value) {
+	public void dropdown(Testing test,String webElement, String var1, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 
 		webElement=webElement.replace("{0}", var1);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
+		WebElement element=test.driver.findElement(By.xpath(webElement));
 
-		dropdown(element,value);
+		dropdown(test,element,value);
 
 	}//Closing METHOD
 
 //	-------------------------------------------------------------------------------
 
 	//	SELECT DROPDOWN - DYNAMIC-2
-	public static void dropdown(String webElement, String var1, String var2, String value) {
+	public void dropdown(Testing test,String webElement, String var1, String var2, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 
 		webElement=webElement.replace("{0}", var1);
 		webElement=webElement.replace("{1}", var2);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
+		WebElement element=test.driver.findElement(By.xpath(webElement));
 
-		dropdown(element,value);
+		dropdown(test,element,value);
 
 	}//Closing METHOD
 	//	======================================================================
 
-//	READ INFO FROM WEB-ELEMENT
-	public static String readInfo(WebElement element) {
+	//	READ INFO FROM WEB-ELEMENT
+	public String readInfo(Testing test,WebElement element) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		String x=element.getText();
 		try{Thread.sleep(1000);}catch(Exception e){};
-		Utility.stop();
+		Utility.stop(test);
 		return x;
 	}
 //	======================================================================
 
-//	RE-INITIALIZE PAGE ELEMENTS
-	public static void reInitPageElements(){
+	//	RE-INITIALIZE PAGE ELEMENTS
+	public void reInitPageElements(Testing test){
 		System.out.println("Stale Element Exception");
 		try{Thread.sleep(1000);}catch(Exception e2){};
-		BrowserFactory.driver.findElement(By.id("ext-element-1")).click();
-		PageFactory.initElements(BrowserFactory.driver, SharedTestCases.page);
+		test.driver.findElement(By.id("ext-element-1")).click();
+		PageFactory.initElements(test.driver, test.getPage());
 	}
-//	======================================================================
-	static Actions action = new Actions(BrowserFactory.driver);
-	public static void dropdownMelissaJS(WebElement element, String value) {
+	//	======================================================================
+		public void dropdownMelissaJS(Testing test,WebElement element, String value) {
+		Actions action = new Actions(test.driver);
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		done=false;
 		attempt=0;
 		while(!done && (attempt<3)){
@@ -266,19 +301,19 @@ public static void type(String webElement, String var1, String value) {
 				element.clear();
 				action.click(element).build().perform();
 				action.sendKeys(value).build().perform();
-				WebElement option = BrowserFactory.driver.findElement(By.xpath("(//li/a/strong)[1]"));
+				WebElement option = test.driver.findElement(By.xpath("(//li/a/strong)[1]"));
 				action.moveToElement(option).click().build().perform();
 
 
 //				jse.executeScript("arguments[0].value='"+value+"';", element);
 				try{Thread.sleep(2000);}catch(Exception e){};
-//				BrowserFactory.driver.findElement(By.xpath("//li/a/strong")).click();;
-				Utility.stop();
+//				test.driver.findElement(By.xpath("//li/a/strong")).click();;
+				Utility.stop(test);
 				done=true;
 			}// Closing TRY
 
 			catch(StaleElementReferenceException e){
-				reInitPageElements();
+				reInitPageElements(test);
 			}//Closing CATCH-1
 
 			catch(WebDriverException e){
@@ -290,11 +325,38 @@ public static void type(String webElement, String var1, String value) {
 
 	//	======================================================================
 
-	public static void dropdownMelissaJS(String webElement, String var1, String value) {
+	public void dropdownMelissaJS(Testing test,String webElement, String var1, String value) {
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
 		webElement=webElement.replace("{0}", var1);
-		element=BrowserFactory.driver.findElement(By.xpath(webElement));
+		WebElement element=test.driver.findElement(By.xpath(webElement));
 
-		dropdownMelissaJS(element,value);
+		dropdownMelissaJS(test,element,value);
+
+	}
+
+
+
+
+	public void Screenshot(Testing test)
+	{
+		WebDriverWait wait = new WebDriverWait(test.driver, 40);
+		Boolean done = false;
+		int attempt = 0;
+		Date date = new Date();
+
+		String FileName = date.toString().replace(":", "_").replace(" ", "_") + ".png";
+
+		File screenshot = ((TakesScreenshot)test.driver).getScreenshotAs(OutputType.FILE);
+		try{
+			FileHandler.copy(screenshot, new File("C:\\IntelliJ\\WorkSpace\\Screenshot\\Screenshot" + FileName));
+		}
+		catch(IOException e)
+		{
+			System.out.println(e.getMessage());
+		}
+
 
 	}
 }

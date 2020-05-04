@@ -27,7 +27,7 @@ Session ID: 12b5b59ba7898e0631c5a7dc050c5526
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:86)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:86)
 	at SharedTC.SharedTestCases.family(SharedTestCases.java:45)
 	at test.TC.TC001(TC.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -85,7 +85,7 @@ Session ID: c60bf102fb84d161b44f544eb88f9d1a
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:86)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:86)
 	at SharedTC.SharedTestCases.family(SharedTestCases.java:45)
 	at test.TC.TC001(TC.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -141,7 +141,7 @@ Session ID: 46dfff45992bdd50e3c39d115e07bd31
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:87)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:87)
 	at SharedTC.SharedTestCases.family(SharedTestCases.java:45)
 	at test.TC.TC001(TC.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -210,7 +210,7 @@ Session ID: 4f56d7e820dac8649680f5d92fd0f61b
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:87)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:87)
 	at SharedTC.SharedTestCases.family(SharedTestCases.java:45)
 	at test.TC.TC001(TC.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -282,7 +282,7 @@ Session ID: 02289651aaebe139047bdc48ebb61381
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:87)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:87)
 	at SharedTC.SharedTestCases.family(SharedTestCases.java:45)
 	at test.TC.TC001(TC.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -422,7 +422,7 @@ Session ID: 02289651aaebe139047bdc48ebb61381
  EXCEPTION:  --->  java.lang.NullPointerException
 	at org.openqa.selenium.support.ui.Select.escapeQuotes(Select.java:291)
 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
-	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:173)
+	at GenericFunctions.test.webFunctions().dropdown(test.webFunctions().java:173)
 	at SharedTC.SharedTestCases.vehicleDetails2of2(SharedTestCases.java:118)
 	at test.TC.TC001(TC.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -465,7 +465,7 @@ Session ID: 02289651aaebe139047bdc48ebb61381
  EXCEPTION:  --->  java.lang.NullPointerException
 	at org.openqa.selenium.support.ui.Select.escapeQuotes(Select.java:291)
 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:112)
-	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:173)
+	at GenericFunctions.test.webFunctions().dropdown(test.webFunctions().java:173)
 	at SharedTC.SharedTestCases.vehicleDetails2of2(SharedTestCases.java:118)
 	at test.TC.TC001(TC.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -528,7 +528,7 @@ Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
 System info: host: 'NitinVerma1', ip: '10.140.11.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:173)
+	at GenericFunctions.test.webFunctions().dropdown(test.webFunctions().java:173)
 	at SharedTC.SharedTestCases.insurnceHistory(SharedTestCases.java:184)
 	at test.TC.TC001(TC.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -814,7 +814,7 @@ Session ID: 0f91d79cf8e149972ab51d4e640ba3f0
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
-	at GenericFunctions.WebFunctions.click(WebFunctions.java:88)
+	at GenericFunctions.test.webFunctions().click(test.webFunctions().java:88)
 	at SharedTC.SharedTestCases.insurnceHistory(SharedTestCases.java:183)
 	at test.TC.TC001(TC.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -953,7 +953,7 @@ Session ID: fdb6b7a9bfc02b6e8ccb996954b76030
 	at java.base/java.lang.StringBuilder.append(StringBuilder.java:168)
 	at org.openqa.selenium.support.ui.ExpectedConditions$18.toString(ExpectedConditions.java:577)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
-	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:171)
+	at GenericFunctions.test.webFunctions().dropdown(test.webFunctions().java:171)
 	at SharedTC.SharedTestCases.vehicleDetails1of2(SharedTestCases.java:101)
 	at test.TC.TC001(TC.java:80)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -4049,3 +4049,2122 @@ Session ID: fdb6b7a9bfc02b6e8ccb996954b76030
 2020-04-06 01:58:07,633 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
 2020-04-06 01:58:27,003 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
 2020-04-06 01:58:44,507 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-11 23:09:08,725 - Test Suite -WARN - Disabled TestCases: []
+2020-04-11 23:09:36,239 - Configuration -INFO - Loading Test Data.
+2020-04-11 23:09:44,596 - Configuration -INFO - Test Data loaded successfully.
+2020-04-11 23:09:49,366 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-11 23:09:57,884 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-11 23:10:07,173 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-11 23:10:24,910 - Shared Test Case -INFO - Address page: Success!
+2020-04-11 23:11:08,023 - Test Suite -WARN - Disabled TestCases: []
+2020-04-11 23:11:34,923 - Configuration -INFO - Loading Test Data.
+2020-04-11 23:11:43,114 - Configuration -INFO - Test Data loaded successfully.
+2020-04-11 23:11:47,796 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-11 23:11:59,180 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-11 23:12:16,961 - Shared Test Case -INFO - Address page: Success!
+2020-04-11 23:14:41,231 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 16:54:20,517 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 16:54:42,835 - Configuration -INFO - Loading Test Data.
+2020-04-12 16:54:48,852 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 16:54:54,116 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 16:55:05,828 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 16:55:21,259 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 16:56:56,818 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 16:57:23,285 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:00:10,365 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:00:30,306 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:00:36,911 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:00:41,838 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:00:53,779 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:01:09,129 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:01:30,770 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:01:51,917 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:02:15,432 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-12 17:03:34,820 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:03:54,343 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:04:02,751 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:04:07,739 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:04:19,625 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:04:34,961 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:04:57,242 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:05:18,261 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:10:54,948 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:11:15,745 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:11:24,016 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:11:28,628 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:11:40,415 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:11:55,944 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:12:16,747 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:12:37,802 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:15:03,438 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:15:25,771 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:15:35,337 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:15:40,126 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:15:48,716 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-12 17:15:58,726 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:16:14,552 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:16:34,797 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:16:55,222 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:22:35,737 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-12 17:26:00,744 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:26:22,083 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:26:30,065 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:26:34,567 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:26:43,162 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-12 17:26:52,966 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:27:08,456 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:27:29,078 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:27:50,155 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:30:17,062 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-12 17:31:00,880 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:31:19,667 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:31:29,073 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:31:33,718 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:31:42,329 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-12 17:31:52,246 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:32:07,639 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:32:28,170 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:32:49,169 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:37:28,618 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-12 17:37:53,351 - Test Suite -WARN - Disabled TestCases: []
+2020-04-12 17:38:12,666 - Configuration -INFO - Loading Test Data.
+2020-04-12 17:38:21,913 - Configuration -INFO - Test Data loaded successfully.
+2020-04-12 17:38:26,536 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-12 17:38:38,322 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-12 17:38:53,703 - Shared Test Case -INFO - Address page: Success!
+2020-04-12 17:39:14,409 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-12 17:39:35,474 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-12 17:39:47,617 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:13:17,642 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:13:36,520 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:13:40,276 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:13:43,605 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:13:52,025 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 00:14:01,137 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:14:15,416 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:14:35,815 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:14:55,655 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:14:58,827 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:15:14,795 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:15:30,793 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:16:26,537 - Test Suite -INFO - Browser is closed.
+2020-04-13 00:18:10,789 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:18:27,656 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:18:32,511 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:18:36,414 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:18:47,659 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:19:01,900 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:19:21,344 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:19:41,300 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:19:44,497 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:20:00,421 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:20:16,434 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:21:24,359 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:21:40,966 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:21:45,913 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:21:49,887 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:21:58,321 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 00:22:07,426 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:22:21,748 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:22:42,552 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:23:02,393 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:23:05,580 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:23:21,484 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:23:37,346 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:36:43,512 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:37:04,433 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:37:08,944 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:37:13,152 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:37:21,629 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 00:37:30,764 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:37:45,197 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:38:04,509 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:38:24,449 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:38:27,620 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:38:43,602 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:38:59,570 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:41:00,733 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:41:19,647 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:41:23,753 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:41:27,678 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:41:38,867 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:41:53,091 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:42:13,113 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:42:33,133 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:42:36,321 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:42:52,279 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:43:08,289 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:44:18,790 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:44:40,687 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:44:45,097 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:44:49,034 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:44:57,501 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 00:45:06,652 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:45:21,006 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:45:40,777 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:46:00,670 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:46:03,846 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:46:19,823 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:46:35,759 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:50:31,392 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 00:50:50,596 - Configuration -INFO - Loading Test Data.
+2020-04-13 00:50:54,779 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 00:50:58,083 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 00:51:06,490 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 00:51:15,819 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 00:51:30,051 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 00:51:49,814 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 00:52:09,746 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 00:52:12,916 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-13 00:52:28,963 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 00:52:44,858 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 00:53:27,814 - Test Suite -INFO - Browser is closed.
+2020-04-13 01:15:43,310 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 01:15:59,447 - Configuration -INFO - Loading Test Data.
+2020-04-13 01:16:03,852 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 01:16:07,802 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 01:16:16,275 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-13 01:16:25,464 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 01:16:39,714 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 01:17:01,006 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 01:17:20,902 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 01:17:40,086 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 01:17:56,036 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 01:17:59,255 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-13 01:18:06,999 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-13 01:18:19,404 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-13 01:20:01,324 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 01:20:17,216 - Configuration -INFO - Loading Test Data.
+2020-04-13 01:20:22,020 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 01:20:25,999 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 01:20:37,190 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 01:20:51,678 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 01:21:10,916 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 01:21:30,910 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 01:21:50,021 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 01:22:06,008 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 01:22:09,193 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-13 01:22:16,921 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-13 01:22:29,241 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-13 01:30:27,317 - Test Suite -WARN - Disabled TestCases: []
+2020-04-13 01:30:46,440 - Configuration -INFO - Loading Test Data.
+2020-04-13 01:30:52,272 - Configuration -INFO - Test Data loaded successfully.
+2020-04-13 01:30:57,022 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-13 01:31:08,777 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-13 01:31:23,975 - Shared Test Case -INFO - Address page: Success!
+2020-04-13 01:31:45,249 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-13 01:32:06,133 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-13 01:32:25,736 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-13 01:32:42,106 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-13 01:32:45,425 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-13 01:32:53,500 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-13 01:33:06,446 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-15 20:41:03,301 - Test Suite -WARN - Disabled TestCases: []
+2020-04-15 20:41:27,601 - Configuration -INFO - Loading Test Data.
+2020-04-15 20:41:35,866 - Configuration -INFO - Test Data loaded successfully.
+2020-04-15 20:41:39,391 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-15 20:41:51,081 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-15 20:42:07,079 - Shared Test Case -INFO - Address page: Success!
+2020-04-15 20:42:28,332 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-15 20:42:49,139 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-15 20:43:08,832 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-15 20:43:25,408 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-15 20:43:28,759 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-15 20:43:36,821 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-15 20:43:50,119 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-15 20:43:57,547 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-15 20:44:07,346 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-15 20:44:24,523 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-04-15 20:44:46,086 - Shared Test Case_Web -INFO - PaymentPlan page: Success!
+2020-04-15 20:44:58,066 - Shared Test Case_Web -INFO - Payment Plan page: Success!
+2020-04-15 20:45:17,322 - Test Suite -INFO - Browser is closed.
+2020-04-17 18:36:06,831 - Test Suite -WARN - Disabled TestCases: []
+2020-04-17 18:36:30,581 - Configuration -INFO - Loading Test Data.
+2020-04-17 18:36:36,347 - Configuration -INFO - Test Data loaded successfully.
+2020-04-17 18:36:39,888 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-17 18:36:50,966 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 19:51:55,085 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 19:52:16,183 - Configuration -INFO - Loading Test Data.
+2020-04-19 19:52:22,550 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 19:52:27,497 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-19 19:52:39,306 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 19:52:57,016 - Shared Test Case -INFO - Address page: Success!
+2020-04-19 19:53:19,194 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-19 19:53:39,389 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-19 19:53:58,600 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-19 19:54:14,804 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-19 19:54:17,999 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-19 19:55:29,689 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 19:55:48,427 - Configuration -INFO - Loading Test Data.
+2020-04-19 19:55:54,522 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 19:55:58,963 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-19 19:56:10,763 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 19:56:26,184 - Shared Test Case -INFO - Address page: Success!
+2020-04-19 19:56:46,807 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-19 19:57:07,044 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-19 19:57:26,328 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-19 19:57:42,332 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-19 19:57:45,569 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-19 19:57:53,334 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-19 19:58:06,039 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-19 19:58:48,474 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-19 20:00:07,613 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 20:00:24,665 - Configuration -INFO - Loading Test Data.
+2020-04-19 20:00:30,993 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 20:00:35,514 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-19 20:00:47,318 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 20:01:02,695 - Shared Test Case -INFO - Address page: Success!
+2020-04-19 20:01:22,686 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-19 20:01:42,803 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-19 20:02:02,102 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-19 20:02:18,277 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-19 20:02:21,515 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-19 20:02:29,310 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-19 20:02:41,880 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-19 20:03:18,218 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-19 20:08:59,879 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 20:09:18,166 - Configuration -INFO - Loading Test Data.
+2020-04-19 20:09:24,425 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 20:09:29,008 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-19 20:09:40,715 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 20:09:56,074 - Shared Test Case -INFO - Address page: Success!
+2020-04-19 20:10:17,978 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-19 20:10:38,873 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-19 20:10:58,364 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-19 20:11:14,689 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-19 20:11:17,972 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-19 20:11:26,079 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-19 20:11:38,867 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-19 20:12:55,150 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-19 20:34:11,412 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 20:34:29,672 - Configuration -INFO - Loading Test Data.
+2020-04-19 20:34:33,365 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 20:35:39,701 - Test Suite -WARN - Disabled TestCases: []
+2020-04-19 20:35:59,118 - Configuration -INFO - Loading Test Data.
+2020-04-19 20:36:03,114 - Configuration -INFO - Test Data loaded successfully.
+2020-04-19 20:36:07,118 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-19 20:36:18,258 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-19 20:36:32,554 - Shared Test Case -INFO - Address page: Success!
+2020-04-19 20:36:51,804 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-19 20:37:11,790 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-19 20:37:30,861 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-19 20:37:46,832 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-19 20:37:50,017 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-19 20:37:57,773 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-19 20:38:10,110 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-19 20:39:20,711 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-20 00:38:07,038 - Test Suite -WARN - Disabled TestCases: []
+2020-04-20 00:38:25,464 - Configuration -INFO - Loading Test Data.
+2020-04-20 00:38:30,021 - Configuration -INFO - Test Data loaded successfully.
+2020-04-20 00:38:34,291 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-20 00:38:45,973 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-20 00:39:06,514 - Shared Test Case -INFO - Address page: Success!
+2020-04-20 00:40:19,007 - Test Suite -WARN - Disabled TestCases: []
+2020-04-20 00:40:35,702 - Configuration -INFO - Loading Test Data.
+2020-04-20 00:40:40,547 - Configuration -INFO - Test Data loaded successfully.
+2020-04-20 00:40:44,951 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-20 00:40:56,362 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-20 00:41:11,794 - Shared Test Case -INFO - Address page: Success!
+2020-04-20 00:41:33,476 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-20 00:41:54,245 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-20 00:42:13,503 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-20 00:42:29,620 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-20 00:42:32,859 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-20 00:42:40,757 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-20 00:42:53,430 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-20 00:43:37,674 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-20 01:28:22,997 - Test Suite -WARN - Disabled TestCases: []
+2020-04-20 01:28:41,106 - Configuration -INFO - Loading Test Data.
+2020-04-20 01:28:48,411 - Configuration -INFO - Test Data loaded successfully.
+2020-04-20 01:32:37,122 - Test Suite -WARN - Disabled TestCases: []
+2020-04-20 01:32:53,975 - Configuration -INFO - Loading Test Data.
+2020-04-20 01:33:01,562 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 12:50:03,114 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 12:50:24,386 - Configuration -INFO - Loading Test Data.
+2020-04-27 12:50:30,701 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 12:50:35,730 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 12:50:44,418 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 12:50:53,982 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 12:51:09,415 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 12:52:00,664 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 12:52:53,644 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 12:56:55,805 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 12:57:18,927 - Configuration -INFO - Loading Test Data.
+2020-04-27 12:57:25,231 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 12:57:30,018 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 12:57:38,660 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 12:57:48,189 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 12:58:03,464 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 12:58:24,771 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 12:58:45,906 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 12:59:03,887 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-27 13:01:51,534 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:02:11,545 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:02:19,956 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:02:23,422 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:02:32,055 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 13:02:41,689 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:02:56,925 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:03:21,588 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:04:06,492 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:04:25,652 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:04:33,985 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:04:37,455 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:04:49,165 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:05:04,451 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:05:25,711 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:06:28,481 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 13:14:33,139 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:14:55,849 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:15:03,860 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:15:07,296 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:15:20,719 - Test Suite -INFO - Browser is closed.
+2020-04-27 13:15:30,042 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:15:49,362 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:15:57,752 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:16:01,194 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:16:12,784 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:16:28,326 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:16:50,220 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:17:41,910 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:18:03,177 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:18:11,545 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:18:14,959 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:18:23,522 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 13:18:33,051 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:18:48,381 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:19:09,632 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:20:14,928 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 13:20:56,767 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:21:15,691 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:21:23,703 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:21:27,168 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:21:35,793 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 13:21:45,506 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:22:00,917 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:22:22,059 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:22:42,885 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 13:24:22,498 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-27 13:26:59,251 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 13:27:20,271 - Configuration -INFO - Loading Test Data.
+2020-04-27 13:27:28,544 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 13:27:31,990 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 13:27:43,801 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 13:27:58,925 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 13:28:24,576 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 13:28:45,699 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 13:30:05,908 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-27 22:14:53,082 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 22:15:11,807 - Configuration -INFO - Loading Test Data.
+2020-04-27 22:15:18,056 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 22:15:21,480 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 22:15:33,427 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 22:15:49,205 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 22:16:14,982 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 22:16:35,654 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 22:16:38,899 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-27 22:16:55,310 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-27 22:20:23,573 - Test Suite -WARN - Disabled TestCases: []
+2020-04-27 22:20:44,930 - Configuration -INFO - Loading Test Data.
+2020-04-27 22:20:52,405 - Configuration -INFO - Test Data loaded successfully.
+2020-04-27 22:20:55,839 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-27 22:21:04,434 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-27 22:21:14,666 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-27 22:21:30,124 - Shared Test Case -INFO - Address page: Success!
+2020-04-27 22:21:52,137 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-27 22:22:12,893 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-27 22:23:00,796 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-27 22:23:17,144 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 16:19:26,397 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 16:19:48,620 - Configuration -INFO - Loading Test Data.
+2020-04-28 16:19:56,277 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 16:19:59,723 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 16:20:08,305 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-28 16:20:17,818 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 16:20:32,839 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 16:20:53,988 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-28 16:21:14,350 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-28 16:21:17,524 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-28 16:21:33,709 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 16:21:49,990 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-28 16:21:58,461 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-28 16:22:09,118 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-28 16:22:25,144 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-28 16:22:44,156 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-28 16:26:08,980 - Shared Test Case_Web -INFO - Additional Driver 1of2 page: Success!
+2020-04-28 16:53:18,037 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 16:53:40,116 - Configuration -INFO - Loading Test Data.
+2020-04-28 16:53:46,203 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 16:53:49,646 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 16:54:01,773 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 16:54:17,009 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 16:54:39,349 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-28 16:55:00,118 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-28 16:55:03,338 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-28 16:55:19,798 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 16:55:36,440 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-28 16:55:39,876 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-28 16:57:10,834 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 16:57:30,881 - Configuration -INFO - Loading Test Data.
+2020-04-28 16:57:38,282 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 16:57:41,651 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 16:57:50,398 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-28 16:58:00,139 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 16:58:15,594 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 16:59:25,249 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 16:59:49,113 - Configuration -INFO - Loading Test Data.
+2020-04-28 16:59:56,739 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 17:00:00,093 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 17:00:12,319 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 17:00:27,569 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 17:00:49,808 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-28 17:01:10,457 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-28 17:01:13,718 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-28 17:01:30,148 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 17:01:46,589 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-28 17:03:03,108 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-28 17:14:24,123 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 17:14:43,740 - Configuration -INFO - Loading Test Data.
+2020-04-28 17:14:49,840 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 17:14:53,326 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 17:15:04,978 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 17:15:20,702 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 17:15:41,892 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-28 17:16:02,823 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-28 17:16:06,131 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-28 17:16:22,921 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 17:16:39,346 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-28 17:16:42,648 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-28 17:16:50,716 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-28 17:17:03,631 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-28 17:17:15,056 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-28 17:19:15,314 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 17:20:28,852 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-04-28 17:23:03,753 - Test Suite -WARN - Disabled TestCases: []
+2020-04-28 17:23:22,491 - Configuration -INFO - Loading Test Data.
+2020-04-28 17:23:31,223 - Configuration -INFO - Test Data loaded successfully.
+2020-04-28 17:23:34,802 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-28 17:23:43,541 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-28 17:23:53,425 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-28 17:24:08,634 - Shared Test Case -INFO - Address page: Success!
+2020-04-28 17:24:31,651 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-28 17:24:52,622 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-28 17:25:40,997 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-28 17:25:57,406 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-28 17:26:13,836 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-28 17:26:54,509 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-28 17:27:02,652 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-28 17:27:05,937 - Shared Test Case_Web -INFO - Driver Assignment page: Success!
+2020-04-28 17:27:18,796 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-28 17:27:33,460 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-28 17:28:24,567 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-04-28 17:29:35,567 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-04-29 15:15:52,378 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 15:16:14,237 - Configuration -INFO - Loading Test Data.
+2020-04-29 15:16:34,316 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 15:16:37,758 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 15:16:49,265 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 15:17:04,049 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 15:17:24,713 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 15:17:45,020 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 15:23:01,683 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 15:23:18,065 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 15:23:41,843 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 15:23:45,028 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 15:23:56,455 - Test Suite -INFO - Browser is closed.
+2020-04-29 15:45:05,123 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 15:45:25,684 - Configuration -INFO - Loading Test Data.
+2020-04-29 15:45:44,232 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 15:45:47,637 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 15:45:59,079 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 15:46:14,281 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 15:46:35,346 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 15:46:55,762 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 15:52:04,751 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 15:52:21,066 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 15:52:41,482 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 15:52:54,718 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 15:53:15,951 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-29 15:54:16,995 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 15:54:36,744 - Configuration -INFO - Loading Test Data.
+2020-04-29 15:54:55,510 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 15:54:58,988 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 15:55:10,878 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 15:55:25,857 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 15:55:46,798 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 15:56:06,990 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:01:19,012 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:01:35,170 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:01:59,436 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:02:02,615 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 16:02:14,121 - Test Suite -INFO - Browser is closed.
+2020-04-29 16:06:19,855 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:06:39,592 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:06:59,803 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:07:03,446 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:07:11,839 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 16:07:21,534 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:07:36,283 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:07:56,347 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:08:16,496 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:13:18,830 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:13:34,855 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:17:42,252 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:17:48,728 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 16:17:57,354 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-04-29 16:18:10,951 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-04-29 16:18:46,182 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-04-29 16:18:59,479 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-04-29 16:24:24,466 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-04-29 16:26:52,403 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:27:15,762 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:27:29,711 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:27:33,336 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:27:41,901 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 16:27:51,721 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:28:08,106 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:28:28,351 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:28:48,491 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:33:50,405 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:34:06,211 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:34:29,742 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:34:32,921 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 16:34:44,381 - Test Suite -INFO - Browser is closed.
+2020-04-29 16:36:40,102 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:36:56,926 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:37:09,142 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:37:12,529 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:37:23,949 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:37:40,163 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:38:01,755 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:38:22,365 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:39:10,814 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:39:27,187 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:40:32,770 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:40:53,969 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:41:10,681 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:41:14,165 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:41:26,153 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:41:41,940 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:42:02,326 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:42:23,227 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:44:41,506 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:44:57,672 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:45:13,899 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:45:17,163 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 16:45:48,061 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:46:07,951 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:46:25,084 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:46:28,589 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:46:37,192 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 16:46:46,932 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:47:02,848 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:47:23,467 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:47:44,429 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:51:30,357 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:51:46,544 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:52:10,426 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:52:13,725 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 16:52:25,031 - Test Suite -INFO - Browser is closed.
+2020-04-29 16:53:17,641 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:53:38,075 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:53:53,730 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 16:53:57,137 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 16:54:08,464 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 16:54:23,529 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 16:54:43,242 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 16:55:03,830 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 16:58:01,378 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 16:58:17,688 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 16:58:33,946 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 16:59:27,271 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 16:59:43,902 - Configuration -INFO - Loading Test Data.
+2020-04-29 16:59:59,822 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:00:04,282 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:00:14,817 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 17:00:25,751 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:00:43,077 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:01:08,030 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:01:33,772 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 17:10:06,030 - Test Suite -INFO - Browser is closed.
+2020-04-29 17:12:11,175 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 17:12:35,293 - Configuration -INFO - Loading Test Data.
+2020-04-29 17:12:53,663 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:12:58,136 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:13:08,724 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 17:13:19,490 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:13:36,902 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:14:01,006 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:14:26,846 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 17:22:28,195 - Test Suite -INFO - Browser is closed.
+2020-04-29 17:23:18,425 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 17:23:44,940 - Configuration -INFO - Loading Test Data.
+2020-04-29 17:24:05,752 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:24:10,297 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:24:22,959 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:24:40,676 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:25:07,032 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:25:32,588 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 17:26:54,932 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 17:27:20,299 - Configuration -INFO - Loading Test Data.
+2020-04-29 17:27:32,446 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:27:36,836 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:27:49,246 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:28:05,613 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:28:29,761 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:28:54,806 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 17:39:40,547 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 17:40:05,477 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 17:40:57,902 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 17:41:29,127 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 17:41:52,143 - Configuration -INFO - Loading Test Data.
+2020-04-29 17:42:06,817 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:42:11,272 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:42:23,550 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:42:39,946 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:43:04,129 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:43:28,779 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 17:51:49,718 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 17:52:12,409 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 17:52:42,129 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 17:53:13,319 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 17:53:28,848 - Test Suite -INFO - Browser is closed.
+2020-04-29 17:55:25,749 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 17:55:46,990 - Configuration -INFO - Loading Test Data.
+2020-04-29 17:55:58,054 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 17:56:01,439 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 17:56:12,879 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 17:56:27,328 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 17:56:47,139 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 17:57:07,099 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 18:02:12,794 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 18:02:28,809 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 18:04:03,774 - Test Suite -WARN - Disabled TestCases: []
+2020-04-29 18:04:27,404 - Configuration -INFO - Loading Test Data.
+2020-04-29 18:04:46,816 - Configuration -INFO - Test Data loaded successfully.
+2020-04-29 18:04:50,282 - Shared Test Case -INFO - Beginning to Quote.
+2020-04-29 18:04:58,801 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-04-29 18:05:08,900 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-04-29 18:05:23,325 - Shared Test Case -INFO - Address page: Success!
+2020-04-29 18:05:43,220 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-04-29 18:06:17,959 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-04-29 18:11:41,080 - Shared Test Case -INFO - VehicleList page: Success!
+2020-04-29 18:11:56,935 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-04-29 18:12:24,898 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-04-29 18:12:28,013 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-04-29 18:12:43,350 - Test Suite -INFO - Browser is closed.
+2020-04-30 23:49:04,187 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:44:54,504 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:47:45,581 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:51:06,276 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:53:12,900 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:53:12,917 - Test Suite -WARN - TC001 is Skipped or Not Tested.
+2020-05-01 12:55:56,225 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 12:55:56,238 - Test Suite -WARN - TC001 is Skipped or Not Tested.
+2020-05-01 12:58:16,273 - Test Suite -WARN - Disabled TestCases: []
+2020-05-01 13:00:43,231 - Test Suite -WARN - TC001 is Skipped or Not Tested.
+2020-05-01 19:30:12,700 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-01 19:30:30,825 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-01 19:34:23,034 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-01 19:34:38,935 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-01 19:36:30,663 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:13:25,112 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:13:49,422 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:13:56,847 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='familyOption']/div/label[text()='Just Me today']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62030}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir21676_14270}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fef93af4b51147a89b5895916ea632bc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_Family.family(SharedTestCases_Family.java:22)
+	at test.TC.TC001(TC.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 16:14:06,904 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:14:31,754 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:15:33,248 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:15:55,130 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:18:23,151 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:20:38,253 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:20:50,073 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:22:16,446 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:22:37,545 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:22:45,991 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:22:53,359 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:23:10,964 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:23:35,703 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 16:23:55,645 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 16:23:58,943 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 16:24:15,005 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 16:24:30,984 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 16:24:34,210 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 16:24:41,947 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 16:24:54,510 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 16:35:01,110 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:35:23,214 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:35:33,858 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:35:48,466 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:36:09,849 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:36:44,503 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 16:37:16,122 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 16:37:20,424 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 16:37:41,529 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 16:38:02,665 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 16:38:06,896 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 16:38:18,858 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 16:38:38,718 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 16:40:48,373 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-02 16:40:58,916 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'driver-Test')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 71 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62492}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8204_10046}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9a9a32ac9811865199f8db74bd55af89
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.type(WebFunctions.java:64)
+	at SharedTC.SharedTestCases_ConfirmDriver.confirmDriver(SharedTestCases_ConfirmDriver.java:23)
+	at test.TC.TC001(TC.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 16:43:25,991 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:43:48,994 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:44:05,580 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:44:27,135 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:45:01,375 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 16:45:32,834 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 16:45:37,036 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 16:45:58,153 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 16:46:19,426 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 16:46:23,607 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 16:46:35,468 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 16:46:55,616 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 16:49:05,425 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-02 16:49:12,132 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'driver-Test')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62919}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8220_26768}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 56428668e1d0eda9d456e6c2b7238607
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.type(WebFunctions.java:64)
+	at SharedTC.SharedTestCases_ConfirmDriver.confirmDriver(SharedTestCases_ConfirmDriver.java:23)
+	at test.TC.TC001(TC.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 16:52:59,044 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:53:25,521 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:53:35,969 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:53:50,298 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:54:13,884 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:54:39,099 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CONV 2D 8 cyl
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:221)
+	at SharedTC.SharedTestCases_VehicleDetails1of2.vehicleDetails1of2(SharedTestCases_VehicleDetails1of2.java:25)
+	at test.TC.TC001(TC.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 16:55:25,700 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:55:50,673 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:56:01,127 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:56:15,448 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:56:36,522 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:56:54,893 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CONV 2D 8 cyl
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:221)
+	at SharedTC.SharedTestCases_VehicleDetails1of2.vehicleDetails1of2(SharedTestCases_VehicleDetails1of2.java:25)
+	at test.TC.TC001(TC.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 16:57:14,129 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 16:57:36,399 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 16:57:46,810 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 16:58:01,140 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 16:58:21,924 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 16:58:55,595 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 16:59:26,709 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 16:59:30,899 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 16:59:51,899 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 17:00:12,800 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 17:00:16,993 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 17:00:28,805 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 17:00:48,336 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 21:19:36,874 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 21:20:00,093 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 21:20:10,443 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 21:20:24,498 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 21:20:44,924 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 21:21:19,919 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 21:21:50,459 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 21:21:54,605 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 21:22:15,413 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 21:22:36,229 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 21:22:40,369 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 21:22:52,027 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 21:23:11,474 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 21:25:21,087 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-02 21:25:31,541 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'driver-Test')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58642}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir19536_27740}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 804ccb133cc5828b82c93021aa3221fc
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.type(WebFunctions.java:64)
+	at SharedTC.SharedTestCases_ConfirmDriver.confirmDriver(SharedTestCases_ConfirmDriver.java:23)
+	at test.TC.TC001(TC.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 21:43:02,899 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 21:43:25,794 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 21:43:36,128 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 21:43:50,051 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 21:44:09,989 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 21:44:42,703 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 21:45:13,048 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 21:45:17,183 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 21:45:37,875 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 21:45:58,549 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 21:46:02,687 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 21:46:14,222 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 21:46:43,577 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 21:47:51,060 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-02 21:48:10,360 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 255 milliseconds
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59160}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir21476_9725}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54b8d13eb2e941de86af58d8da1cdff7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at GenericFunctions.BrowserFactory.closeBrowser(BrowserFactory.java:29)
+	at GenericFunctions.Testing.tearDown(Testing.java:62)
+	at test.TC.TC001(TC.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 21:50:00,433 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 21:50:26,475 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 21:50:36,780 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 21:50:50,733 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 21:51:10,697 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 21:51:30,425 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: Cannot locate element with text: CONV 2D 8 cyl
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:221)
+	at SharedTC.SharedTestCases_VehicleDetails1of2.vehicleDetails1of2(SharedTestCases_VehicleDetails1of2.java:25)
+	at test.TC.TC001(TC.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-02 21:57:05,344 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-02 21:57:27,538 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-02 21:57:37,838 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-02 21:57:51,735 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-02 21:58:11,654 - Shared Test Case -INFO - Address page: Success!
+2020-05-02 21:58:44,908 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-02 21:59:15,262 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-02 21:59:19,403 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-02 21:59:40,129 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-02 22:00:00,811 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-02 22:00:04,948 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-02 22:00:16,451 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-02 22:00:35,569 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-02 22:01:07,410 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-02 22:01:22,844 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-02 22:01:31,255 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@for,'rdIsDamaged') and contains(@for,'M6') and contains(@for,'No')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59654}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir21920_12778}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a78c283025681d424da5564d18cea0ea
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:139)
+	at SharedTC.SharedTestCases_ConfirmVehicle.confirmVehicle(SharedTestCases_ConfirmVehicle.java:25)
+	at test.TC.TC001(TC.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-03 02:06:31,949 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 02:06:56,496 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 02:07:07,211 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 02:07:22,005 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-03 02:07:43,564 - Shared Test Case -INFO - Address page: Success!
+2020-05-03 02:08:19,197 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-03 02:08:51,342 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-03 02:08:55,536 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-03 02:09:17,313 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-03 02:09:39,114 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-03 02:09:43,630 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-03 02:09:55,791 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-03 02:10:16,006 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-03 02:10:28,689 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-03 02:10:41,437 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-03 02:11:09,011 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-05-03 02:11:29,674 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='payment-options']/div/label/p[contains(text(),'Monthly')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 152 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61648}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir7492_21486}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 796a434172b38973f0853c1bc6e5295c
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_PaymentPlan.paymentPlan(SharedTestCases_PaymentPlan.java:20)
+	at test.TC.TC001(TC.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-03 02:12:34,181 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 02:12:56,748 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 02:13:07,556 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 02:13:22,297 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-03 02:13:43,796 - Shared Test Case -INFO - Address page: Success!
+2020-05-03 02:14:18,785 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-03 02:14:50,926 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-03 02:14:55,214 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-03 02:15:16,944 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-03 02:15:18,335 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='HasValidUSLicense']/div/div/label[contains(text(),'Yes')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 104 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61779}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir3368_21438}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 04e09fcdc78106448c8f1fc1eafd3b29
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_PolicyHolderDetails2of2.policyHolderDetails2of2(SharedTestCases_PolicyHolderDetails2of2.java:21)
+	at test.TC.TC001(TC.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-03 02:27:09,721 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 02:27:32,919 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 02:27:43,484 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 02:28:01,546 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62416}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir624_26359}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9dd7df4e4b05799e0ab83709128a5b4d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at GenericFunctions.BrowserFactory.closeBrowser(BrowserFactory.java:29)
+	at GenericFunctions.Testing.tearDown(Testing.java:62)
+	at test.TC.TC001(TC.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-03 02:29:33,271 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 02:29:57,227 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 02:30:07,920 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 02:31:17,517 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-03 02:32:20,209 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 256 milliseconds
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62511}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir14628_32123}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fb2dc2028340de1287724359276a6e9f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at GenericFunctions.BrowserFactory.closeBrowser(BrowserFactory.java:29)
+	at GenericFunctions.Testing.tearDown(Testing.java:62)
+	at test.TC.TC001(TC.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-03 02:34:59,443 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 02:35:21,456 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 02:35:32,009 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 02:35:46,545 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-03 02:36:07,811 - Shared Test Case -INFO - Address page: Success!
+2020-05-03 02:36:43,040 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-03 02:37:14,621 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-03 02:37:18,904 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-03 02:37:40,209 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-03 02:38:01,601 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-03 02:38:05,851 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-03 02:38:17,853 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-03 02:38:37,783 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-03 02:38:45,505 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-03 02:38:58,299 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-03 02:39:21,371 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-05-03 02:39:44,963 - Shared Test Case_Web -INFO - PaymentPlan page: Success!
+2020-05-03 02:40:03,876 - Shared Test Case_Web -INFO - Payment Plan page: Success!
+2020-05-03 02:40:10,450 - Test Suite -INFO - TC001 is Passed !
+2020-05-03 16:52:39,409 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-03 16:53:04,817 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-03 16:53:15,545 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-03 16:53:30,323 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-03 16:53:52,081 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 00:14:36,826 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:15:17,185 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:16:15,320 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49260}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir21340_16531}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3b90f57a30b5b7fa8cb59de33c76795c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at GenericFunctions.BrowserFactory.closeBrowser(BrowserFactory.java:29)
+	at GenericFunctions.Testing.tearDown(Testing.java:62)
+	at test.TC.TC001(TC.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:16:15,337 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 00:17:41,509 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:17:57,862 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 247 milliseconds
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49306}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir8360_27705}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c1bf900e78d07453f77dd961d141d76c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at GenericFunctions.BrowserFactory.closeBrowser(BrowserFactory.java:29)
+	at GenericFunctions.Testing.tearDown(Testing.java:62)
+	at test.TC.TC005(TC.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:18:43,135 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 00:19:04,707 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:19:15,114 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 00:21:12,594 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:23:58,605 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:24:05,891 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='familyOption']/div/label[text()='Just Me today']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49658}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir1544_21671}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 37ed0ddeff6a37d0efad7688db66050b
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_Family.family(SharedTestCases_Family.java:22)
+	at test.TC.TC001(TC.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:27:30,411 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:27:55,795 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:28:03,279 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='familyOption']/div/label[text()='Just Me today']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 72 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49786}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir5232_23205}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 694a469316ad9ace7eb2bf3aba240f39
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_Family.family(SharedTestCases_Family.java:22)
+	at test.TC.TC001(TC.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:28:37,776 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:28:57,737 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:29:05,161 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='familyOption']/div/label[text()='Just Me today']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49870}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir19480_2458}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d3aebf3cc0b81cca33f336aac4d72c0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_Family.family(SharedTestCases_Family.java:22)
+	at test.TC.TC001(TC.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:30:30,426 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:30:49,804 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 00:30:57,286 - Test Suite -ERROR - TC001 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@identity='familyOption']/div/label[text()='Just Me today']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 46 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49957}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir9988_32758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 83d547e10fb0c062201e02b225723616
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:123)
+	at SharedTC.SharedTestCases_Family.family(SharedTestCases_Family.java:22)
+	at test.TC.TC001(TC.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 00:32:48,250 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 00:34:46,305 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:09:04,479 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 12:09:30,246 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:09:46,678 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:10:07,599 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:10:52,182 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:11:23,331 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 12:11:27,549 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 12:11:48,601 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 12:12:09,592 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 12:12:13,749 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-04 12:12:25,434 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-04 12:12:44,758 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-04 12:15:06,098 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:15:29,152 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:16:55,970 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:19:26,813 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:19:49,121 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:20:03,318 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:20:26,299 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:21:01,094 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:21:32,071 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 12:22:28,144 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for element to be clickable: [[ChromeDriver: chrome on XP (25d27eaf7b95264eaf55dc4353bb80d3)] -> id: vehicleMake]
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:259)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:219)
+	at SharedTC.SharedTestCases_VehicleDetails1of2.vehicleDetails_1of2(SharedTestCases_VehicleDetails1of2.java:38)
+	at SharedTC.SharedTestCases_VehicleList.vehicleList(SharedTestCases_VehicleList.java:30)
+	at test.TC.TC005(TC.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 12:26:13,804 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:26:40,015 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:28:39,361 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:29:01,774 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:29:12,277 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 12:29:49,315 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:30:47,553 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:33:37,532 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 12:36:32,799 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:36:55,462 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:37:05,935 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 12:37:22,422 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:37:43,211 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:38:18,237 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:38:49,216 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 12:39:29,807 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds: null
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '192.168.43.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64019}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir19072_26416}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: cc80f993824521455b40ba9e028fd15a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:151)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:348)
+	at org.openqa.selenium.By$ById.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy7.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:227)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$1(ExpectedConditions.java:226)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:213)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions$18.apply(ExpectedConditions.java:563)
+	at org.openqa.selenium.support.ui.ExpectedConditions$18.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at GenericFunctions.WebFunctions.dropdown(WebFunctions.java:219)
+	at SharedTC.SharedTestCases_VehicleDetails1of2.vehicleDetails_1of2(SharedTestCases_VehicleDetails1of2.java:38)
+	at SharedTC.SharedTestCases_VehicleList.vehicleList(SharedTestCases_VehicleList.java:30)
+	at test.TC.TC005(TC.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 12:40:19,817 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:40:42,388 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:40:52,873 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 12:41:09,513 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:41:30,579 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:42:06,136 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:42:37,195 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 12:47:07,467 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:47:30,170 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:47:48,667 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:48:09,651 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:48:44,237 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:49:15,307 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 12:53:55,820 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 12:54:19,963 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 12:54:38,521 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 12:54:59,277 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 12:55:33,808 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 12:56:04,875 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 17:41:59,788 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 17:42:24,713 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 17:42:35,153 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 17:42:51,453 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 17:43:11,993 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 17:43:49,607 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 17:44:20,463 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 17:45:32,994 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 17:45:53,833 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 17:46:14,686 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 17:47:01,433 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  java.lang.NullPointerException
+	at java.lang.String.replace(String.java:2240)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:122)
+	at SharedTC.SharedTestCases_DriverInfo2of2.driverInfo_2of2(SharedTestCases_DriverInfo2of2.java:42)
+	at SharedTC.SharedTestCases_DriverList.driverList(SharedTestCases_DriverList.java:24)
+	at test.TC.TC005(TC.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 17:51:46,390 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 17:56:21,457 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 17:56:49,068 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 17:56:59,346 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 17:57:15,370 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 17:57:35,305 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 17:58:08,481 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 17:58:38,838 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 17:59:49,993 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 18:00:10,663 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 18:00:31,373 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 18:01:26,815 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-04 18:01:38,314 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-04 18:01:42,442 - Shared Test Case_Web -INFO - Driver Assignment page: Success!
+2020-05-04 18:02:01,563 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-04 18:02:25,340 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-04 18:02:38,959 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  java.lang.NullPointerException
+	at java.lang.String.replace(String.java:2240)
+	at GenericFunctions.WebFunctions.type(WebFunctions.java:62)
+	at SharedTC.SharedTestCases_ConfirmDriver.confirmDriver(SharedTestCases_ConfirmDriver.java:29)
+	at test.TC.TC005(TC.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 18:05:13,872 - Test Suite -INFO - TEST CASE: TC001 | Priority: 5
+2020-05-04 18:05:39,980 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 18:05:50,277 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 18:06:06,282 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 18:06:26,217 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 18:06:59,356 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 18:07:29,642 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 18:07:33,789 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 18:07:54,473 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 18:08:15,136 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 18:08:19,254 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-04 18:08:30,772 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-04 18:08:49,873 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-04 18:08:55,690 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-04 18:09:08,068 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-04 18:09:30,176 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-05-04 18:09:53,668 - Shared Test Case_Web -INFO - PaymentPlan page: Success!
+2020-05-04 18:10:10,879 - Shared Test Case_Web -INFO - Payment Plan page: Success!
+2020-05-04 18:10:20,183 - Test Suite -INFO - TC001 is Passed !
+2020-05-04 18:10:42,303 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 18:11:06,566 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 18:11:16,855 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 18:11:32,912 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 18:11:52,868 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 18:12:26,009 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 18:12:56,350 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 18:14:07,636 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 18:14:28,294 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 18:14:48,951 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 18:15:44,397 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-04 18:15:55,863 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-04 18:15:59,987 - Shared Test Case_Web -INFO - Driver Assignment page: Success!
+2020-05-04 18:16:19,189 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-04 18:16:27,642 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-04 18:16:51,362 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-04 18:16:56,751 - Test Suite -ERROR - TC005 is Failed ! 
+ EXCEPTION:  --->  org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//label[contains(@for,'rdIsDamaged') and contains(@for,'M6') and contains(@for,'No')]"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.38.0', revision: 'bd32d4e', time: '2013-12-05 16:16:40'
+System info: host: 'DESKTOP-RL948I0', ip: '10.1.28.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60871}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir9668_29650}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=69.0.3497.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 72576d86099092b3522fe48114517069
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:307)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:299)
+	at GenericFunctions.WebFunctions.click(WebFunctions.java:139)
+	at SharedTC.SharedTestCases_ConfirmVehicle.confirmVehicle(SharedTestCases_ConfirmVehicle.java:25)
+	at test.TC.TC005(TC.java:265)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
+
+2020-05-04 18:19:03,414 - Test Suite -INFO - TEST CASE: TC005 | Priority: 5
+2020-05-04 18:19:27,666 - Shared Test Case -INFO - Beginning to Quote.
+2020-05-04 18:19:38,076 - Shared Test Case -INFO - Family page: Just Me today selected. Success!
+2020-05-04 18:19:54,406 - Shared Test Case_Web -INFO - Policy Holder page: Success!
+2020-05-04 18:20:14,617 - Shared Test Case -INFO - Address page: Success!
+2020-05-04 18:20:49,946 - Shared Test Case_Web -INFO - Vehicle Details 1of2 page: Success!
+2020-05-04 18:21:20,856 - Shared Test Case_Web -INFO - Vehicle Details 2of2 page: Success!
+2020-05-04 18:22:33,237 - Shared Test Case -INFO - VehicleList page: Success!
+2020-05-04 18:22:54,177 - Shared Test Case_Web -INFO - Policy holder Details 1of2 page: Success!
+2020-05-04 18:23:15,006 - Shared Test Case_Web -INFO - Policy Holder Details 2of2 page: Success!
+2020-05-04 18:24:11,206 - Shared Test Case_Web -INFO - DriverList page: Success!
+2020-05-04 18:24:22,907 - Shared Test Case_Web -INFO - Insurance History page: Success!
+2020-05-04 18:24:27,081 - Shared Test Case_Web -INFO - Driver Assignment page: Success!
+2020-05-04 18:24:46,446 - Shared Test Case_Web -INFO - Policy Start page: Success!
+2020-05-04 18:24:53,957 - Shared Test Case_Web -INFO - Quote Page: Success!
+2020-05-04 18:25:14,802 - Shared Test Case_Web -INFO - Confirm Driver page: Success!
+2020-05-04 18:25:55,441 - Shared Test Case_Web -INFO - ConfirmVehicle page: Success!
+2020-05-04 18:26:18,837 - Shared Test Case_Web -INFO - PaymentPlan page: Success!
+2020-05-04 18:26:37,523 - Shared Test Case_Web -INFO - Payment Plan page: Success!
+2020-05-04 18:26:42,967 - Test Suite -INFO - TC005 is Passed !

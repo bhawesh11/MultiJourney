@@ -13,7 +13,12 @@ public class Quote {
 
 	@FindBy(how=How.ID,using="btnContinueQuote")
 	public WebElement btn_Continue;
-	
+
+	@FindBy(how=How.ID,using="//*[@id='btnContinueWithoutCoverage']")
+	public WebElement btn_ContinueWithoutCoveragePOPUP;
+
+	//public String btn_ContinueWithoutCoveragePOPUP = "//*[@id='btnContinueWithoutCoverage']";
+
 
 
 
