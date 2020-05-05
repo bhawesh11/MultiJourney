@@ -15,11 +15,11 @@ public class SharedTestCases_VehicleDetails2of2 {
     public void vehicleDetails2of2(Testing test) {
         page = VehicleDetails2of2.class;
         VehicleDetails2of2 vehicleDetails2of2 = (VehicleDetails2of2) PageFactory.initElements(test.driver, page);
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_YearBought, test.getTestData("Vehicle-details-2.YearBought"));
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_MonthBought, test.getTestData("Vehicle-details-2.MonthBought"));
-        test.webFunctions().click(test,vehicleDetails2of2.btn_OwnedByYou, test.getTestData("Vehicle-details-2.Ownedbyyou"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_YearBought, test.getTestData("Vehicle.V1.YearBought"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_MonthBought, test.getTestData("Vehicle.V1.MonthBought"));
+        test.webFunctions().click(test,vehicleDetails2of2.btn_OwnedByYou, test.getTestData("Vehicle.V1.Ownedbyyou"));
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_CustomEquipment);
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_EstimatedValue, test.getTestData("Vehicle-details-2.EstimatedValue"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_EstimatedValue, test.getTestData("Vehicle.V1.EstimatedValue"));
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_HandsFree);
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_CrashAvoidance);
         test.webFunctions().click(test,vehicleDetails2of2.btn_Next);
@@ -32,11 +32,11 @@ public class SharedTestCases_VehicleDetails2of2 {
     {
         page = VehicleDetails2of2.class;
         VehicleDetails2of2 vehicleDetails2of2 = (VehicleDetails2of2) PageFactory.initElements(test.driver, page);
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_YearBought, test.getTestData("AdditionalVehicle-details-2."+additionalVehicle+"YearBought"));
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_MonthBought, test.getTestData("AdditionalVehicle-details-2."+additionalVehicle+"MonthBought"));
-        test.webFunctions().click(test,vehicleDetails2of2.btn_OwnedByYou, test.getTestData("AdditionalVehicle-details-2."+additionalVehicle+"Ownedbyyou"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_YearBought, test.getTestData("Vehicle.V"+additionalVehicle+".YearBought"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_MonthBought, test.getTestData("Vehicle.V"+additionalVehicle+".MonthBought"));
+        test.webFunctions().click(test,vehicleDetails2of2.btn_OwnedByYou, test.getTestData("Vehicle.V"+additionalVehicle+".Ownedbyyou"));
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_CustomEquipment);
-        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_EstimatedValue, test.getTestData("AdditionalVehicle-details-2."+additionalVehicle+"EstimatedValue"));
+        test.webFunctions().dropdown(test,vehicleDetails2of2.dropDown_EstimatedValue, test.getTestData("Vehicle.V"+additionalVehicle+".EstimatedValue"));
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_HandsFree);
         test.webFunctions().click(test,vehicleDetails2of2.checkBox_CrashAvoidance);
         test.webFunctions().click(test,vehicleDetails2of2.btn_Next);
