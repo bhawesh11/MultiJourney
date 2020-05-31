@@ -19,7 +19,8 @@ public class Testing {
 	private WebFunctions webFunctions;
 	
 //	CONSTRUCTOR
-	public Testing(String environment, String scriptName){
+	public Testing(String environment, String scriptName)
+	{
 		
 //		1. INITIALIZING ATTRIBUTES:
 		db=new Database();
@@ -48,26 +49,31 @@ public class Testing {
 //	---------------------------------------------------------------------
 	
 //	GETTERs and SETTERs FOR PAGE:	
-	public Class getPage(){
+	public Class getPage()
+	{
 		return page;
 	}
 	
-	public void setPage(Class page){
+	public void setPage(Class page)
+	{
 		this.page = page;
 	}
 
 //	---------------------------------------------------------------------	
 //	TEAR DOWN FOR TESTCASE:
-	public void tearDown() {
+	public void tearDown()
+	{
 		bf.closeBrowser();
 	}
 //	---------------------------------------------------------------------
 //	GETTERs and SETTERs FOR OUTPUT JSON:
-	public String getOutput(String key) {
+	public String getOutput(String key)
+	{
 		return output.getOutput(key);
 	}
 
-	public void setOutput(String key, String value) {
+	public void setOutput(String key, String value)
+	{
 		this.output.setOutput(key, value);
 	}
 //	---------------------------------------------------------------------
@@ -75,23 +81,28 @@ public class Testing {
 		return gwFunctions;
 	}*/
 	//	---------------------------------------------------------------------
-	public WebFunctions webFunctions() {
+	public WebFunctions webFunctions()
+	{
 		return webFunctions;
 	}
 //	---------------------------------------------------------------------
-	public Database db() {
+	public Database db()
+	{
 		return db;
 	}
 //	---------------------------------------------------------------------
-	public String getTestData(String key) {
+	public String getTestData(String key)
+	{
 		return td.getTestData(key);
 	}
 	
-	public String getDate(int offSet) {
+	public String getDate(int offSet)
+	{
 		return td.getDate(offSet);
 	}
 	
-	public String getRandomString(int length) {
+	public String getRandomString(int length)
+	{
 		return td.createRandomString(length);
 	}	
 //	---------------------------------------------------------------------

@@ -95,12 +95,13 @@ public class TC {
 //										***_TEST_CASES_***
 
     //	TC001
-    @Test(enabled=false, priority=5, description="1V1D-Quote")
+    @Test(enabled=true, priority=5, description="1V1D-Quote")
     @Parameters("ENV")
     public void TC001(String ENV) throws InterruptedException, IOException{
 
         Testing tc001 = new Testing(ENV,"1D1V");
         try{
+
         PostalCode.postalCode(tc001);
         Family.family(tc001);
         Children.children(tc001);
@@ -203,7 +204,7 @@ public class TC {
 //	---------------------------------------------------------------------------------------
 
     //	TC004
-      @Test(enabled=true, priority=5, description="1V1D-Quote")
+      @Test(enabled=false, priority=5, description="1V1D-Quote")
     @Parameters("ENV")
     public void TC004(String ENV) throws InterruptedException, IOException{
         //script="2D1V";
